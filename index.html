@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR"> 
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -169,6 +169,14 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 .pod-card.p1 .pod-pts{font-size:34px;color:var(--am);}
 .pod-card.p2 .pod-pts,.pod-card.p3 .pod-pts{color:var(--am);}
 .pod-pts-lbl{font-size:12px;color:var(--sv);}
+/* FOTO AVATAR PODIO */
+.pod-avatar{width:72px;height:72px;border-radius:10px;overflow:hidden;border:2px solid rgba(255,255,255,.15);background:var(--c2);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.pod-card.p1 .pod-avatar{width:88px;height:88px;border-color:rgba(212,175,55,.5);border-radius:12px;}
+.pod-card.p2 .pod-avatar{border-color:rgba(192,192,192,.3);}
+.pod-card.p3 .pod-avatar{border-color:rgba(205,127,50,.3);}
+.pod-avatar img{width:100%;height:100%;object-fit:cover;display:block;}
+.pod-avatar-ini{font-family:'Oswald',sans-serif;font-size:28px;font-weight:700;color:var(--am);}
+.pod-card.p1 .pod-avatar-ini{font-size:34px;}
 /* NAV CARDS */
 .ini-cards{display:flex;flex-direction:column;gap:10px;margin-top:4px;}
 .ini-navcard{background:var(--cd);border:1px solid var(--bd);border-radius:14px;padding:22px 20px;cursor:pointer;display:flex;align-items:center;gap:18px;transition:all .2s;border-left:4px solid transparent;}
@@ -864,6 +872,12 @@ function renderJogoMomento(idx){
 // NAV
 var pgMap={inicio:"pg-inicio",ranking:"pg-ranking",jogos:"pg-jogos",dia:"pg-dia",momento:"pg-momento",apostas:"pg-apostas",regras:"pg-regras"};
 
+function nomeParaArquivo(nome){
+  // Pega a primeira palavra, capitaliza: "ANGELO" -> "Angelo", "ZILDA 1" -> "Zilda"
+  var primeira=nome.split(" ")[0];
+  return primeira.charAt(0).toUpperCase()+primeira.slice(1).toLowerCase();
+}
+
 function renderInicio(){
   var top3=parts.slice(0,3);
   var medals=["&#x1F947;","&#x1F948;","&#x1F949;"];
@@ -875,9 +889,20 @@ function renderInicio(){
     var idx=order[k];
     var p=top3[idx];
     if(!p) continue;
+    var arquivo=nomeParaArquivo(p.n);
+    var inicial=p.n.charAt(0).toUpperCase();
+    // Avatar: tenta imagem, fallback para inicial via onerror
+    var avatarId="pod-av-"+idx;
+    var avatarHtml=
+      "<div class='pod-avatar' id='"+avatarId+"'>"+
+        "<img src='imagens/"+arquivo+".jpg' alt='"+p.n+"' "+
+          "onerror=\"var el=document.getElementById('"+avatarId+"');"+
+          "el.innerHTML='<span class=\\'pod-avatar-ini\\'>"+inicial+"</span>';\">"+
+      "</div>";
     h+="<div class='pod-card "+cls[idx]+"'>";
     h+="<div class='pod-medal'>"+medals[idx]+"</div>";
     h+="<div class='pod-pos'>"+(idx+1)+"&#xba;</div>";
+    h+=avatarHtml;
     h+="<div class='pod-nome'>"+p.n+"</div>";
     h+="<div class='pod-pts'>"+p.tot+" pts</div>";
     h+="</div>";
