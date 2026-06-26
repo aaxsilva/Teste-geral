@@ -1,0 +1,2710 @@
+{
+  "fase": "16avos",
+  "label": "16 Avos de Final",
+  "jogos": [
+    {
+      "jogo": 73,
+      "timeA": "África do Sul",
+      "golsA": null,
+      "timeB": "Canadá",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "África do Sul",
+          "golsA": 4,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "África do Sul",
+          "golsA": 2,
+          "timeB": "Canadá",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "África do Sul",
+          "golsA": 2,
+          "timeB": "Canadá",
+          "golsB": 0
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 3
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "África do Sul",
+          "golsA": 3,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "África do Sul",
+          "golsA": 4,
+          "timeB": "Canadá",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "África do Sul",
+          "golsA": 2,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "África do Sul",
+          "golsA": 4,
+          "timeB": "Canadá",
+          "golsB": 3
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "África do Sul",
+          "golsA": 4,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "África do Sul",
+          "golsA": 0,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 4
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "África do Sul",
+          "golsA": 2,
+          "timeB": "Canadá",
+          "golsB": 0
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "África do Sul",
+          "golsA": 3,
+          "timeB": "Canadá",
+          "golsB": 4
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "África do Sul",
+          "golsA": 2,
+          "timeB": "Canadá",
+          "golsB": 3
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 1
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 4
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "África do Sul",
+          "golsA": 4,
+          "timeB": "Canadá",
+          "golsB": 2
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "África do Sul",
+          "golsA": 1,
+          "timeB": "Canadá",
+          "golsB": 4
+        }
+      ]
+    },
+    {
+      "jogo": 74,
+      "timeA": "Brasil",
+      "golsA": null,
+      "timeB": "Japão",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 3
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Brasil",
+          "golsA": 4,
+          "timeB": "Japão",
+          "golsB": 3
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Brasil",
+          "golsA": 4,
+          "timeB": "Japão",
+          "golsB": 0
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 1
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Brasil",
+          "golsA": 4,
+          "timeB": "Japão",
+          "golsB": 0
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Japão",
+          "golsB": 2
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Japão",
+          "golsB": 4
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Japão",
+          "golsB": 4
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 2
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Japão",
+          "golsB": 2
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Brasil",
+          "golsA": 4,
+          "timeB": "Japão",
+          "golsB": 4
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 3
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Japão",
+          "golsB": 1
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Brasil",
+          "golsA": 4,
+          "timeB": "Japão",
+          "golsB": 4
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 0
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Japão",
+          "golsB": 0
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Japão",
+          "golsB": 3
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Brasil",
+          "golsA": 4,
+          "timeB": "Japão",
+          "golsB": 4
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Japão",
+          "golsB": 1
+        }
+      ]
+    },
+    {
+      "jogo": 75,
+      "timeA": "Alemanha",
+      "golsA": null,
+      "timeB": "TIME 1",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 3
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Alemanha",
+          "golsA": 4,
+          "timeB": "TIME 1",
+          "golsB": 0
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "TIME 1",
+          "golsB": 2
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 2
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "TIME 1",
+          "golsB": 0
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "TIME 1",
+          "golsB": 3
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 4
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Alemanha",
+          "golsA": 4,
+          "timeB": "TIME 1",
+          "golsB": 0
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "TIME 1",
+          "golsB": 2
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "TIME 1",
+          "golsB": 4
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Alemanha",
+          "golsA": 4,
+          "timeB": "TIME 1",
+          "golsB": 0
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 1
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 4
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 1
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "TIME 1",
+          "golsB": 3
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "TIME 1",
+          "golsB": 2
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Alemanha",
+          "golsA": 4,
+          "timeB": "TIME 1",
+          "golsB": 4
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 1
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "TIME 1",
+          "golsB": 1
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "TIME 1",
+          "golsB": 0
+        }
+      ]
+    },
+    {
+      "jogo": 76,
+      "timeA": "Holanda",
+      "golsA": null,
+      "timeB": "Marrocos",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "Marrocos",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "Marrocos",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 1
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "Marrocos",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 4
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 1
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Holanda",
+          "golsA": 4,
+          "timeB": "Marrocos",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "Marrocos",
+          "golsB": 1
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "Marrocos",
+          "golsB": 2
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "Marrocos",
+          "golsB": 2
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "Marrocos",
+          "golsB": 4
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 0
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 2
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "Marrocos",
+          "golsB": 0
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 2
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Holanda",
+          "golsA": 4,
+          "timeB": "Marrocos",
+          "golsB": 1
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Holanda",
+          "golsA": 4,
+          "timeB": "Marrocos",
+          "golsB": 0
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 2
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Holanda",
+          "golsA": 4,
+          "timeB": "Marrocos",
+          "golsB": 4
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "Marrocos",
+          "golsB": 4
+        }
+      ]
+    },
+    {
+      "jogo": 77,
+      "timeA": "Costa do Marfim",
+      "golsA": null,
+      "timeB": "TIME 2",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Costa do Marfim",
+          "golsA": 3,
+          "timeB": "TIME 2",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Costa do Marfim",
+          "golsA": 2,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Costa do Marfim",
+          "golsA": 1,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Costa do Marfim",
+          "golsA": 2,
+          "timeB": "TIME 2",
+          "golsB": 2
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Costa do Marfim",
+          "golsA": 4,
+          "timeB": "TIME 2",
+          "golsB": 2
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Costa do Marfim",
+          "golsA": 4,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Costa do Marfim",
+          "golsA": 1,
+          "timeB": "TIME 2",
+          "golsB": 2
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Costa do Marfim",
+          "golsA": 4,
+          "timeB": "TIME 2",
+          "golsB": 4
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Costa do Marfim",
+          "golsA": 2,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Costa do Marfim",
+          "golsA": 2,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Costa do Marfim",
+          "golsA": 3,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Costa do Marfim",
+          "golsA": 2,
+          "timeB": "TIME 2",
+          "golsB": 2
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Costa do Marfim",
+          "golsA": 1,
+          "timeB": "TIME 2",
+          "golsB": 0
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Costa do Marfim",
+          "golsA": 4,
+          "timeB": "TIME 2",
+          "golsB": 2
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Costa do Marfim",
+          "golsA": 2,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Costa do Marfim",
+          "golsA": 0,
+          "timeB": "TIME 2",
+          "golsB": 3
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Costa do Marfim",
+          "golsA": 3,
+          "timeB": "TIME 2",
+          "golsB": 2
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Costa do Marfim",
+          "golsA": 0,
+          "timeB": "TIME 2",
+          "golsB": 1
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Costa do Marfim",
+          "golsA": 3,
+          "timeB": "TIME 2",
+          "golsB": 4
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Costa do Marfim",
+          "golsA": 4,
+          "timeB": "TIME 2",
+          "golsB": 0
+        }
+      ]
+    },
+    {
+      "jogo": 78,
+      "timeA": "TIME 3",
+      "golsA": null,
+      "timeB": "TIME 4",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "TIME 3",
+          "golsA": 2,
+          "timeB": "TIME 4",
+          "golsB": 0
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "TIME 3",
+          "golsA": 0,
+          "timeB": "TIME 4",
+          "golsB": 2
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 0
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "TIME 3",
+          "golsA": 1,
+          "timeB": "TIME 4",
+          "golsB": 1
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "TIME 3",
+          "golsA": 2,
+          "timeB": "TIME 4",
+          "golsB": 1
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "TIME 3",
+          "golsA": 4,
+          "timeB": "TIME 4",
+          "golsB": 2
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "TIME 3",
+          "golsA": 4,
+          "timeB": "TIME 4",
+          "golsB": 2
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "TIME 3",
+          "golsA": 2,
+          "timeB": "TIME 4",
+          "golsB": 4
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 3
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "TIME 3",
+          "golsA": 1,
+          "timeB": "TIME 4",
+          "golsB": 1
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 1
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "TIME 3",
+          "golsA": 0,
+          "timeB": "TIME 4",
+          "golsB": 1
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "TIME 3",
+          "golsA": 2,
+          "timeB": "TIME 4",
+          "golsB": 0
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "TIME 3",
+          "golsA": 2,
+          "timeB": "TIME 4",
+          "golsB": 3
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 2
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 2
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 0
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "TIME 3",
+          "golsA": 2,
+          "timeB": "TIME 4",
+          "golsB": 1
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "TIME 3",
+          "golsA": 3,
+          "timeB": "TIME 4",
+          "golsB": 3
+        }
+      ]
+    },
+    {
+      "jogo": 79,
+      "timeA": "México",
+      "golsA": null,
+      "timeB": "TIME 5",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "México",
+          "golsA": 1,
+          "timeB": "TIME 5",
+          "golsB": 3
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "México",
+          "golsA": 1,
+          "timeB": "TIME 5",
+          "golsB": 3
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "México",
+          "golsA": 3,
+          "timeB": "TIME 5",
+          "golsB": 0
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "México",
+          "golsA": 3,
+          "timeB": "TIME 5",
+          "golsB": 1
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "México",
+          "golsA": 2,
+          "timeB": "TIME 5",
+          "golsB": 3
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "México",
+          "golsA": 3,
+          "timeB": "TIME 5",
+          "golsB": 4
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "México",
+          "golsA": 4,
+          "timeB": "TIME 5",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "México",
+          "golsA": 4,
+          "timeB": "TIME 5",
+          "golsB": 2
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "México",
+          "golsA": 1,
+          "timeB": "TIME 5",
+          "golsB": 4
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "México",
+          "golsA": 0,
+          "timeB": "TIME 5",
+          "golsB": 4
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "México",
+          "golsA": 3,
+          "timeB": "TIME 5",
+          "golsB": 3
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "México",
+          "golsA": 4,
+          "timeB": "TIME 5",
+          "golsB": 0
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "México",
+          "golsA": 2,
+          "timeB": "TIME 5",
+          "golsB": 3
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "México",
+          "golsA": 3,
+          "timeB": "TIME 5",
+          "golsB": 2
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "México",
+          "golsA": 1,
+          "timeB": "TIME 5",
+          "golsB": 3
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "México",
+          "golsA": 1,
+          "timeB": "TIME 5",
+          "golsB": 4
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "México",
+          "golsA": 2,
+          "timeB": "TIME 5",
+          "golsB": 0
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "México",
+          "golsA": 0,
+          "timeB": "TIME 5",
+          "golsB": 1
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "México",
+          "golsA": 2,
+          "timeB": "TIME 5",
+          "golsB": 2
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "México",
+          "golsA": 4,
+          "timeB": "TIME 5",
+          "golsB": 3
+        }
+      ]
+    },
+    {
+      "jogo": 80,
+      "timeA": "TIME 6",
+      "golsA": null,
+      "timeB": "TIME 7",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "TIME 6",
+          "golsA": 4,
+          "timeB": "TIME 7",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "TIME 6",
+          "golsA": 4,
+          "timeB": "TIME 7",
+          "golsB": 4
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "TIME 6",
+          "golsA": 2,
+          "timeB": "TIME 7",
+          "golsB": 0
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "TIME 6",
+          "golsA": 3,
+          "timeB": "TIME 7",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "TIME 6",
+          "golsA": 1,
+          "timeB": "TIME 7",
+          "golsB": 4
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "TIME 6",
+          "golsA": 0,
+          "timeB": "TIME 7",
+          "golsB": 2
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "TIME 6",
+          "golsA": 2,
+          "timeB": "TIME 7",
+          "golsB": 4
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "TIME 6",
+          "golsA": 2,
+          "timeB": "TIME 7",
+          "golsB": 0
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "TIME 6",
+          "golsA": 0,
+          "timeB": "TIME 7",
+          "golsB": 3
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "TIME 6",
+          "golsA": 1,
+          "timeB": "TIME 7",
+          "golsB": 2
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "TIME 6",
+          "golsA": 3,
+          "timeB": "TIME 7",
+          "golsB": 3
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "TIME 6",
+          "golsA": 2,
+          "timeB": "TIME 7",
+          "golsB": 4
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "TIME 6",
+          "golsA": 1,
+          "timeB": "TIME 7",
+          "golsB": 1
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "TIME 6",
+          "golsA": 2,
+          "timeB": "TIME 7",
+          "golsB": 0
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "TIME 6",
+          "golsA": 0,
+          "timeB": "TIME 7",
+          "golsB": 4
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "TIME 6",
+          "golsA": 4,
+          "timeB": "TIME 7",
+          "golsB": 3
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "TIME 6",
+          "golsA": 0,
+          "timeB": "TIME 7",
+          "golsB": 0
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "TIME 6",
+          "golsA": 1,
+          "timeB": "TIME 7",
+          "golsB": 1
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "TIME 6",
+          "golsA": 0,
+          "timeB": "TIME 7",
+          "golsB": 3
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "TIME 6",
+          "golsA": 1,
+          "timeB": "TIME 7",
+          "golsB": 0
+        }
+      ]
+    },
+    {
+      "jogo": 81,
+      "timeA": "TIME 8",
+      "golsA": null,
+      "timeB": "TIME 9",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "TIME 8",
+          "golsA": 4,
+          "timeB": "TIME 9",
+          "golsB": 0
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "TIME 8",
+          "golsA": 1,
+          "timeB": "TIME 9",
+          "golsB": 3
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "TIME 8",
+          "golsA": 1,
+          "timeB": "TIME 9",
+          "golsB": 1
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "TIME 8",
+          "golsA": 0,
+          "timeB": "TIME 9",
+          "golsB": 2
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "TIME 8",
+          "golsA": 0,
+          "timeB": "TIME 9",
+          "golsB": 3
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "TIME 8",
+          "golsA": 1,
+          "timeB": "TIME 9",
+          "golsB": 1
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 3
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "TIME 8",
+          "golsA": 0,
+          "timeB": "TIME 9",
+          "golsB": 2
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "TIME 8",
+          "golsA": 4,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "TIME 8",
+          "golsA": 0,
+          "timeB": "TIME 9",
+          "golsB": 3
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "TIME 8",
+          "golsA": 1,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "TIME 8",
+          "golsA": 3,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "TIME 8",
+          "golsA": 1,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "TIME 8",
+          "golsA": 0,
+          "timeB": "TIME 9",
+          "golsB": 4
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "TIME 8",
+          "golsA": 0,
+          "timeB": "TIME 9",
+          "golsB": 3
+        }
+      ]
+    },
+    {
+      "jogo": 82,
+      "timeA": "Estados Unidos",
+      "golsA": null,
+      "timeB": "Bósnia e Herzegovina",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 2
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 1
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 4
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 0
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 3
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 4
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 2
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 0
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 3
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 1
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 4
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 0
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 3
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Estados Unidos",
+          "golsA": 4,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 2
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 2
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Bósnia e Herzegovina",
+          "golsB": 0
+        }
+      ]
+    },
+    {
+      "jogo": 83,
+      "timeA": "TIME 10",
+      "golsA": null,
+      "timeB": "TIME 11",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "TIME 10",
+          "golsA": 4,
+          "timeB": "TIME 11",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "TIME 10",
+          "golsA": 2,
+          "timeB": "TIME 11",
+          "golsB": 4
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "TIME 10",
+          "golsA": 1,
+          "timeB": "TIME 11",
+          "golsB": 4
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "TIME 10",
+          "golsA": 3,
+          "timeB": "TIME 11",
+          "golsB": 2
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "TIME 10",
+          "golsA": 3,
+          "timeB": "TIME 11",
+          "golsB": 3
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "TIME 10",
+          "golsA": 4,
+          "timeB": "TIME 11",
+          "golsB": 4
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "TIME 10",
+          "golsA": 3,
+          "timeB": "TIME 11",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "TIME 10",
+          "golsA": 4,
+          "timeB": "TIME 11",
+          "golsB": 0
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "TIME 10",
+          "golsA": 4,
+          "timeB": "TIME 11",
+          "golsB": 0
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "TIME 10",
+          "golsA": 2,
+          "timeB": "TIME 11",
+          "golsB": 3
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "TIME 10",
+          "golsA": 0,
+          "timeB": "TIME 11",
+          "golsB": 1
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "TIME 10",
+          "golsA": 0,
+          "timeB": "TIME 11",
+          "golsB": 1
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "TIME 10",
+          "golsA": 3,
+          "timeB": "TIME 11",
+          "golsB": 0
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "TIME 10",
+          "golsA": 0,
+          "timeB": "TIME 11",
+          "golsB": 1
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "TIME 10",
+          "golsA": 0,
+          "timeB": "TIME 11",
+          "golsB": 1
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "TIME 10",
+          "golsA": 1,
+          "timeB": "TIME 11",
+          "golsB": 2
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "TIME 10",
+          "golsA": 3,
+          "timeB": "TIME 11",
+          "golsB": 1
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "TIME 10",
+          "golsA": 3,
+          "timeB": "TIME 11",
+          "golsB": 4
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "TIME 10",
+          "golsA": 1,
+          "timeB": "TIME 11",
+          "golsB": 3
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "TIME 10",
+          "golsA": 0,
+          "timeB": "TIME 11",
+          "golsB": 0
+        }
+      ]
+    },
+    {
+      "jogo": 84,
+      "timeA": "TIME 12",
+      "golsA": null,
+      "timeB": "TIME 13",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "TIME 12",
+          "golsA": 1,
+          "timeB": "TIME 13",
+          "golsB": 4
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "TIME 12",
+          "golsA": 4,
+          "timeB": "TIME 13",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "TIME 12",
+          "golsA": 4,
+          "timeB": "TIME 13",
+          "golsB": 0
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "TIME 12",
+          "golsA": 0,
+          "timeB": "TIME 13",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "TIME 12",
+          "golsA": 1,
+          "timeB": "TIME 13",
+          "golsB": 3
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "TIME 12",
+          "golsA": 1,
+          "timeB": "TIME 13",
+          "golsB": 2
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "TIME 12",
+          "golsA": 3,
+          "timeB": "TIME 13",
+          "golsB": 2
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "TIME 12",
+          "golsA": 3,
+          "timeB": "TIME 13",
+          "golsB": 2
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "TIME 12",
+          "golsA": 4,
+          "timeB": "TIME 13",
+          "golsB": 0
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "TIME 12",
+          "golsA": 3,
+          "timeB": "TIME 13",
+          "golsB": 1
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "TIME 12",
+          "golsA": 2,
+          "timeB": "TIME 13",
+          "golsB": 4
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "TIME 12",
+          "golsA": 0,
+          "timeB": "TIME 13",
+          "golsB": 3
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "TIME 12",
+          "golsA": 4,
+          "timeB": "TIME 13",
+          "golsB": 2
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "TIME 12",
+          "golsA": 2,
+          "timeB": "TIME 13",
+          "golsB": 0
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "TIME 12",
+          "golsA": 1,
+          "timeB": "TIME 13",
+          "golsB": 1
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "TIME 12",
+          "golsA": 4,
+          "timeB": "TIME 13",
+          "golsB": 1
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "TIME 12",
+          "golsA": 0,
+          "timeB": "TIME 13",
+          "golsB": 0
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "TIME 12",
+          "golsA": 2,
+          "timeB": "TIME 13",
+          "golsB": 0
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "TIME 12",
+          "golsA": 2,
+          "timeB": "TIME 13",
+          "golsB": 1
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "TIME 12",
+          "golsA": 1,
+          "timeB": "TIME 13",
+          "golsB": 1
+        }
+      ]
+    },
+    {
+      "jogo": 85,
+      "timeA": "Suíça",
+      "golsA": null,
+      "timeB": "TIME 14",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Suíça",
+          "golsA": 2,
+          "timeB": "TIME 14",
+          "golsB": 4
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Suíça",
+          "golsA": 4,
+          "timeB": "TIME 14",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Suíça",
+          "golsA": 2,
+          "timeB": "TIME 14",
+          "golsB": 2
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Suíça",
+          "golsA": 1,
+          "timeB": "TIME 14",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Suíça",
+          "golsA": 0,
+          "timeB": "TIME 14",
+          "golsB": 4
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Suíça",
+          "golsA": 4,
+          "timeB": "TIME 14",
+          "golsB": 0
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Suíça",
+          "golsA": 2,
+          "timeB": "TIME 14",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Suíça",
+          "golsA": 4,
+          "timeB": "TIME 14",
+          "golsB": 3
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Suíça",
+          "golsA": 4,
+          "timeB": "TIME 14",
+          "golsB": 3
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Suíça",
+          "golsA": 1,
+          "timeB": "TIME 14",
+          "golsB": 0
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Suíça",
+          "golsA": 1,
+          "timeB": "TIME 14",
+          "golsB": 1
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Suíça",
+          "golsA": 3,
+          "timeB": "TIME 14",
+          "golsB": 1
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Suíça",
+          "golsA": 1,
+          "timeB": "TIME 14",
+          "golsB": 3
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Suíça",
+          "golsA": 1,
+          "timeB": "TIME 14",
+          "golsB": 2
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Suíça",
+          "golsA": 3,
+          "timeB": "TIME 14",
+          "golsB": 0
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Suíça",
+          "golsA": 3,
+          "timeB": "TIME 14",
+          "golsB": 1
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Suíça",
+          "golsA": 0,
+          "timeB": "TIME 14",
+          "golsB": 4
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Suíça",
+          "golsA": 0,
+          "timeB": "TIME 14",
+          "golsB": 2
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Suíça",
+          "golsA": 2,
+          "timeB": "TIME 14",
+          "golsB": 0
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Suíça",
+          "golsA": 1,
+          "timeB": "TIME 14",
+          "golsB": 2
+        }
+      ]
+    },
+    {
+      "jogo": 86,
+      "timeA": "Austrália",
+      "golsA": null,
+      "timeB": "TIME 15",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "TIME 15",
+          "golsB": 3
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "TIME 15",
+          "golsB": 4
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Austrália",
+          "golsA": 4,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "TIME 15",
+          "golsB": 0
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Austrália",
+          "golsA": 4,
+          "timeB": "TIME 15",
+          "golsB": 2
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "TIME 15",
+          "golsB": 0
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "TIME 15",
+          "golsB": 3
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "TIME 15",
+          "golsB": 0
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "TIME 15",
+          "golsB": 4
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "TIME 15",
+          "golsB": 1
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "TIME 15",
+          "golsB": 4
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "TIME 15",
+          "golsB": 2
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Austrália",
+          "golsA": 4,
+          "timeB": "TIME 15",
+          "golsB": 0
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "TIME 15",
+          "golsB": 4
+        }
+      ]
+    },
+    {
+      "jogo": 87,
+      "timeA": "Argentina",
+      "golsA": null,
+      "timeB": "TIME 16",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "Argentina",
+          "golsA": 3,
+          "timeB": "TIME 16",
+          "golsB": 1
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "Argentina",
+          "golsA": 4,
+          "timeB": "TIME 16",
+          "golsB": 2
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "Argentina",
+          "golsA": 2,
+          "timeB": "TIME 16",
+          "golsB": 1
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "Argentina",
+          "golsA": 2,
+          "timeB": "TIME 16",
+          "golsB": 3
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 0
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "Argentina",
+          "golsA": 1,
+          "timeB": "TIME 16",
+          "golsB": 4
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "Argentina",
+          "golsA": 3,
+          "timeB": "TIME 16",
+          "golsB": 4
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 1
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "Argentina",
+          "golsA": 4,
+          "timeB": "TIME 16",
+          "golsB": 4
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "Argentina",
+          "golsA": 4,
+          "timeB": "TIME 16",
+          "golsB": 2
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "Argentina",
+          "golsA": 1,
+          "timeB": "TIME 16",
+          "golsB": 0
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "Argentina",
+          "golsA": 3,
+          "timeB": "TIME 16",
+          "golsB": 0
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 3
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "Argentina",
+          "golsA": 4,
+          "timeB": "TIME 16",
+          "golsB": 2
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "Argentina",
+          "golsA": 2,
+          "timeB": "TIME 16",
+          "golsB": 0
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 2
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 3
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "Argentina",
+          "golsA": 4,
+          "timeB": "TIME 16",
+          "golsB": 0
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 4
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "Argentina",
+          "golsA": 0,
+          "timeB": "TIME 16",
+          "golsB": 1
+        }
+      ]
+    },
+    {
+      "jogo": 88,
+      "timeA": "TIME 17",
+      "golsA": null,
+      "timeB": "TIME 18",
+      "golsB": null,
+      "palpites": [
+        {
+          "participante": "Rafael Souza",
+          "arquivo": "rafael",
+          "timeA": "TIME 17",
+          "golsA": 0,
+          "timeB": "TIME 18",
+          "golsB": 4
+        },
+        {
+          "participante": "Camila Ferreira",
+          "arquivo": "camila",
+          "timeA": "TIME 17",
+          "golsA": 2,
+          "timeB": "TIME 18",
+          "golsB": 1
+        },
+        {
+          "participante": "Bruno Almeida",
+          "arquivo": "bruno",
+          "timeA": "TIME 17",
+          "golsA": 4,
+          "timeB": "TIME 18",
+          "golsB": 2
+        },
+        {
+          "participante": "Larissa Costa",
+          "arquivo": "larissa",
+          "timeA": "TIME 17",
+          "golsA": 0,
+          "timeB": "TIME 18",
+          "golsB": 4
+        },
+        {
+          "participante": "Thiago Pereira",
+          "arquivo": "thiago",
+          "timeA": "TIME 17",
+          "golsA": 0,
+          "timeB": "TIME 18",
+          "golsB": 4
+        },
+        {
+          "participante": "Juliana Rocha",
+          "arquivo": "juliana",
+          "timeA": "TIME 17",
+          "golsA": 3,
+          "timeB": "TIME 18",
+          "golsB": 4
+        },
+        {
+          "participante": "Marcelo Lima",
+          "arquivo": "marcelo",
+          "timeA": "TIME 17",
+          "golsA": 3,
+          "timeB": "TIME 18",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda Oliveira",
+          "arquivo": "fernanda",
+          "timeA": "TIME 17",
+          "golsA": 4,
+          "timeB": "TIME 18",
+          "golsB": 4
+        },
+        {
+          "participante": "Diego Santos",
+          "arquivo": "diego",
+          "timeA": "TIME 17",
+          "golsA": 0,
+          "timeB": "TIME 18",
+          "golsB": 2
+        },
+        {
+          "participante": "Patricia Gomes",
+          "arquivo": "patricia",
+          "timeA": "TIME 17",
+          "golsA": 1,
+          "timeB": "TIME 18",
+          "golsB": 1
+        },
+        {
+          "participante": "Eduardo Martins",
+          "arquivo": "eduardo",
+          "timeA": "TIME 17",
+          "golsA": 1,
+          "timeB": "TIME 18",
+          "golsB": 0
+        },
+        {
+          "participante": "Vanessa Carvalho",
+          "arquivo": "vanessa",
+          "timeA": "TIME 17",
+          "golsA": 2,
+          "timeB": "TIME 18",
+          "golsB": 1
+        },
+        {
+          "participante": "Rodrigo Barros",
+          "arquivo": "rodrigo",
+          "timeA": "TIME 17",
+          "golsA": 4,
+          "timeB": "TIME 18",
+          "golsB": 2
+        },
+        {
+          "participante": "Aline Nogueira",
+          "arquivo": "aline",
+          "timeA": "TIME 17",
+          "golsA": 4,
+          "timeB": "TIME 18",
+          "golsB": 1
+        },
+        {
+          "participante": "Felipe Cardoso",
+          "arquivo": "felipe",
+          "timeA": "TIME 17",
+          "golsA": 2,
+          "timeB": "TIME 18",
+          "golsB": 3
+        },
+        {
+          "participante": "Renata Teixeira",
+          "arquivo": "renata",
+          "timeA": "TIME 17",
+          "golsA": 2,
+          "timeB": "TIME 18",
+          "golsB": 3
+        },
+        {
+          "participante": "Gustavo Pinto",
+          "arquivo": "gustavo",
+          "timeA": "TIME 17",
+          "golsA": 3,
+          "timeB": "TIME 18",
+          "golsB": 2
+        },
+        {
+          "participante": "Bianca Ribeiro",
+          "arquivo": "bianca",
+          "timeA": "TIME 17",
+          "golsA": 2,
+          "timeB": "TIME 18",
+          "golsB": 2
+        },
+        {
+          "participante": "Leonardo Dias",
+          "arquivo": "leonardo",
+          "timeA": "TIME 17",
+          "golsA": 1,
+          "timeB": "TIME 18",
+          "golsB": 3
+        },
+        {
+          "participante": "Priscila Moura",
+          "arquivo": "priscila",
+          "timeA": "TIME 17",
+          "golsA": 1,
+          "timeB": "TIME 18",
+          "golsB": 3
+        }
+      ]
+    }
+  ]
+}
