@@ -153,6 +153,8 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 .ap-sub{font-size:11px;color:var(--sv);margin-top:2px;}
 .ap-corpo{overflow:hidden;max-height:0;opacity:0;transition:max-height .4s ease,opacity .25s ease;}
 .ap-corpo.op{max-height:2000px;opacity:1;}
+.ps{font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:2px 8px;border-radius:3px;margin-top:4px;display:inline-block;}
+.ps.age{background:rgba(255,215,0,.1);color:var(--am);}
 </style>
 </head>
 <body>
@@ -285,6 +287,16 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 var FLAGS = {"BRASIL": "🇧🇷", "ARGENTINA": "🇦🇷", "FRANÇA": "🇫🇷", "ALEMANHA": "🇩🇪", "ESPANHA": "🇪🇸", "PORTUGAL": "🇵🇹", "INGLATERRA": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "HOLANDA": "🇳🇱", "ITÁLIA": "🇮🇹", "BÉLGICA": "🇧🇪", "URUGUAI": "🇺🇾", "CROÁCIA": "🇭🇷", "MARROCOS": "🇲🇦", "SENEGAL": "🇸🇳", "JAPÃO": "🇯🇵", "ESTADOS UNIDOS": "🇺🇸", "MÉXICO": "🇲🇽", "COLÔMBIA": "🇨🇴", "EQUADOR": "🇪🇨", "CHILE": "🇨🇱", "AUSTRÁLIA": "🇦🇺", "COREIA DO SUL": "🇰🇷", "POLÔNIA": "🇵🇱", "SUÍÇA": "🇨🇭", "DINAMARCA": "🇩🇰", "ÁUSTRIA": "🇦🇹", "TURQUIA": "🇹🇷", "COSTA RICA": "🇨🇷", "NIGÉRIA": "🇳🇬", "GANA": "🇬🇭", "CAMARÕES": "🇨🇲", "CANADÁ": "🇨🇦"};
 function flag(nome){ return FLAGS[(nome||"").toUpperCase()] || "\u26BD"; }
 function cap(s){ return s ? s.charAt(0)+s.slice(1).toLowerCase() : s; }
+function placarHTML(golsA, golsB){
+  if(golsA===null || golsA===undefined || golsB===null || golsB===undefined){
+    return "<span style='font-size:13px;color:var(--sv)'>vs</span>";
+  }
+  return golsA+"<span class='sx'>x</span>"+golsB;
+}
+function temResultado(j){
+  return j.golsA!==null && j.golsA!==undefined && j.golsB!==null && j.golsB!==undefined;
+}
+
 
 // ---------- DEFINICAO DAS FASES (ordem fixa) ----------
 var FASES = [
@@ -335,7 +347,8 @@ function calcularRanking(){
         arquivos[nome] = pp.arquivo || nome.split(" ")[0].toLowerCase();
 
         var pts = 0;
-        if(pp.golsA===j.golsA && pp.golsB===j.golsB){ pts=5; pontos[nome].exatos++; }
+        if(!temResultado(j)){ /* jogo ainda nao ocorreu - sem pontos, sem contagem */ }
+        else if(pp.golsA===j.golsA && pp.golsB===j.golsB){ pts=5; pontos[nome].exatos++; }
         else if((pp.golsA>pp.golsB)===(j.golsA>j.golsB) && (j.golsA!==j.golsB)){ pts=3; pontos[nome].certos++; }
         else { pontos[nome].erros++; }
         pontos[nome].porFase[f.k]+=pts;
@@ -411,23 +424,26 @@ function renderFase(fk){
       var plist="";
       j.palpites.forEach(function(pp){
         var pts=0;
-        if(pp.golsA===j.golsA && pp.golsB===j.golsB) pts=5;
-        else if((pp.golsA>pp.golsB)===(j.golsA>j.golsB) && j.golsA!==j.golsB) pts=3;
+        if(temResultado(j)){
+          if(pp.golsA===j.golsA && pp.golsB===j.golsB) pts=5;
+          else if((pp.golsA>pp.golsB)===(j.golsA>j.golsB) && j.golsA!==j.golsB) pts=3;
+        }
         var tagClass = pts>0 ? "acerto" : "";
+        var tagTxt = temResultado(j) ? ("+"+pts+" pts") : "aguardando";
         var arquivo = pp.arquivo || pp.participante.split(" ")[0].toLowerCase();
         plist += "<div class='prow-p'>";
         plist += imgTag(arquivo, pp.participante, "pp-foto", "pp-foto-fb");
         plist += "<div class='pp-nome'>"+pp.participante+"</div>";
         plist += "<div class='pp-placar'>"+pp.golsA+" x "+pp.golsB+"</div>";
         plist += "<div class='pp-tag2'>"+flag(pp.timeA)+" "+cap(pp.timeA)+" x "+cap(pp.timeB)+" "+flag(pp.timeB)+"</div>";
-        plist += "<div class='pp-tag "+tagClass+"'>+"+pts+" pts</div>";
+        plist += "<div class='pp-tag "+tagClass+"'>"+tagTxt+"</div>";
         plist += "</div>";
       });
       h += "<div class='jc'>";
       h += "<div class='jch'><span class='dt'>Jogo "+j.jogo+"</span><span>"+j.palpites.length+" participantes</span></div>";
       h += "<div class='jcb' onclick=\"toggleJogo('"+id+"')\">";
       h += "<div class='ti'><span class='fl'>"+fa+"</span><span class='tn'>"+cap(j.timeA)+"</span></div>";
-      h += "<div class='pc'><div class='pl'>"+j.golsA+"<span class='sx'>x</span>"+j.golsB+"</div></div>";
+      h += "<div class='pc'><div class='pl'>"+placarHTML(j.golsA,j.golsB)+"</div>"+(temResultado(j)?"":"<div class='ps age'>Aguardando</div>")+"</div>";
       h += "<div class='ti'><span class='fl'>"+fb+"</span><span class='tn'>"+cap(j.timeB)+"</span></div>";
       h += "<div class='chev' id='jv-"+id+"'>\u25BE</div>";
       h += "</div>";
@@ -515,10 +531,10 @@ function renderDia(){
     });
 
     h+="<div class='jc'>";
-    h+="<div class='jch'><span class='dt'>Jogo "+j.jogo+" &middot; "+f.l+"</span><span>Resultado: "+j.golsA+"x"+j.golsB+"</span></div>";
+    h+="<div class='jch'><span class='dt'>Jogo "+j.jogo+" &middot; "+f.l+"</span><span>"+(temResultado(j)?("Resultado: "+j.golsA+"x"+j.golsB):"Aguardando inicio")+"</span></div>";
     h+="<div class='jcb' style='cursor:default'>";
     h+="<div class='ti'><span class='fl'>"+fa+"</span><span class='tn'>"+cap(j.timeA)+"</span></div>";
-    h+="<div class='pc'><div class='pl'>"+j.golsA+"<span class='sx'>x</span>"+j.golsB+"</div></div>";
+    h+="<div class='pc'><div class='pl'>"+placarHTML(j.golsA,j.golsB)+"</div></div>";
     h+="<div class='ti'><span class='fl'>"+fb+"</span><span class='tn'>"+cap(j.timeB)+"</span></div>";
     h+="</div>";
     h+="<div style='padding:0 14px 14px'>";
@@ -536,7 +552,7 @@ function renderJogoMomentoHero(j){
   var fa=flag(j.timeA), fb=flag(j.timeB);
   var h="<div class='jm-vs'>";
   h+="<div class='jm-time'><span class='jm-flag'>"+fa+"</span><span class='jm-nome'>"+cap(j.timeA)+"</span></div>";
-  h+="<div class='jm-score'><div class='jm-placar'>"+j.golsA+"<span class='jm-x'>x</span>"+j.golsB+"</div><div class='jm-data'>Jogo "+j.jogo+"</div></div>";
+  h+="<div class='jm-score'><div class='jm-placar'>"+placarHTML(j.golsA,j.golsB)+"</div><div class='jm-data'>Jogo "+j.jogo+(temResultado(j)?"":" &middot; aguardando")+"</div></div>";
   h+="<div class='jm-time'><span class='jm-flag'>"+fb+"</span><span class='jm-nome'>"+cap(j.timeB)+"</span></div>";
   h+="</div>";
   document.getElementById("jm-hero").innerHTML=h;
@@ -544,6 +560,7 @@ function renderJogoMomentoHero(j){
   var rows=j.palpites.slice();
   rows.sort(function(a,b){
     function pts(pp){
+      if(!temResultado(j)) return 0;
       if(pp.golsA===j.golsA&&pp.golsB===j.golsB) return 5;
       if((pp.golsA>pp.golsB)===(j.golsA>j.golsB)&&j.golsA!==j.golsB) return 3;
       return 0;
@@ -553,9 +570,12 @@ function renderJogoMomentoHero(j){
   var th="";
   rows.forEach(function(pp,i){
     var pts=0;
-    if(pp.golsA===j.golsA&&pp.golsB===j.golsB) pts=5;
-    else if((pp.golsA>pp.golsB)===(j.golsA>j.golsB)&&j.golsA!==j.golsB) pts=3;
-    th+="<tr><td class='jm-td-pos'>"+(i+1)+"\u00ba</td><td>"+pp.participante+"</td><td class='jm-td-palp"+(pts>0?" acertou":"")+"'>"+pp.golsA+" x "+pp.golsB+"</td><td class='jm-td-pts"+(pts>0?" ganhou":"")+"'>+"+pts+" pts</td></tr>";
+    if(temResultado(j)){
+      if(pp.golsA===j.golsA&&pp.golsB===j.golsB) pts=5;
+      else if((pp.golsA>pp.golsB)===(j.golsA>j.golsB)&&j.golsA!==j.golsB) pts=3;
+    }
+    var ptsTxt = temResultado(j) ? ("+"+pts+" pts") : "aguardando";
+    th+="<tr><td class='jm-td-pos'>"+(i+1)+"\u00ba</td><td>"+pp.participante+"</td><td class='jm-td-palp"+(pts>0?" acertou":"")+"'>"+pp.golsA+" x "+pp.golsB+"</td><td class='jm-td-pts"+(pts>0?" ganhou":"")+"'>"+ptsTxt+"</td></tr>";
   });
   document.getElementById("jm-tbody").innerHTML=th;
 }
