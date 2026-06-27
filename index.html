@@ -155,6 +155,10 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 .ap-corpo.op{max-height:2000px;opacity:1;}
 .ps{font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:2px 8px;border-radius:3px;margin-top:4px;display:inline-block;}
 .ps.age{background:rgba(255,215,0,.1);color:var(--am);}
+.cbox{background:linear-gradient(135deg,rgba(212,175,55,.1),rgba(0,102,51,.1));border:1px solid rgba(212,175,55,.3);border-radius:12px;padding:22px;text-align:center;}
+.clb{font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:3px;color:var(--ou);text-transform:uppercase;margin-bottom:10px;}
+.cfl{font-size:44px;margin-bottom:6px;}
+.cnm{font-family:'Oswald',sans-serif;font-size:24px;font-weight:700;}
 </style>
 </head>
 <body>
@@ -335,6 +339,17 @@ function carregarFases(callback){
 function calcularRanking(){
   var pontos = {};   // nome -> {porFase:{}, total, exatos, certos, erros}
   var arquivos = {};
+  var campeoes = {};
+
+  // Primeiro, tenta usar o bloco "participantes" (mais confiavel) de qualquer fase carregada
+  FASES.forEach(function(f){
+    var dados = FASES_CARREGADAS[f.k];
+    if(!dados || !dados.participantes) return;
+    dados.participantes.forEach(function(pm){
+      if(pm.campeao) campeoes[pm.participante] = pm.campeao;
+      if(pm.arquivo) arquivos[pm.participante] = pm.arquivo;
+    });
+  });
 
   FASES.forEach(function(f){
     var dados = FASES_CARREGADAS[f.k];
@@ -344,7 +359,8 @@ function calcularRanking(){
         var nome = pp.participante;
         if(!pontos[nome]) pontos[nome] = {porFase:{}, total:0, exatos:0, certos:0, erros:0};
         if(!pontos[nome].porFase[f.k]) pontos[nome].porFase[f.k]=0;
-        arquivos[nome] = pp.arquivo || nome.split(" ")[0].toLowerCase();
+        if(!arquivos[nome]) arquivos[nome] = pp.arquivo || nome.split(" ")[0].toLowerCase();
+        if(!campeoes[nome] && pp.campeao) campeoes[nome] = pp.campeao;
 
         var pts = 0;
         if(!temResultado(j)){ /* jogo ainda nao ocorreu - sem pontos, sem contagem */ }
@@ -359,7 +375,7 @@ function calcularRanking(){
 
   var lista = Object.keys(pontos).map(function(nome){
     var p = pontos[nome];
-    return {nome:nome, arquivo:arquivos[nome], total:p.total, exatos:p.exatos, certos:p.certos, erros:p.erros, porFase:p.porFase};
+    return {nome:nome, arquivo:arquivos[nome], campeao:campeoes[nome]||null, total:p.total, exatos:p.exatos, certos:p.certos, erros:p.erros, porFase:p.porFase};
   });
   lista.sort(function(a,b){ return b.total-a.total; });
   RANKING = lista;
@@ -625,13 +641,18 @@ function renderApostas(){
       var val = disponivel ? ((p.porFase[f.k]||0)+" pts") : "aguardando jogo";
       rows+="<div class='prow'><span>"+f.l+"</span><span class='pval'>"+val+"</span></div>";
     });
+    var campeaoCard = "";
+    if(p.campeao){
+      campeaoCard = "<div class='cbox' style='margin-top:10px'><div class='clb'>&#x1F3C6; Meu Palpite de Campeao</div><div class='cfl'>"+flag(p.campeao)+"</div><div class='cnm'>"+cap(p.campeao)+"</div></div>";
+    }
     h+="<div class='ap-card'>";
     h+="<div class='ap-head' onclick='toggleAp(\""+id+"\")'>";
     h+=imgTag(p.arquivo, p.nome, "ap-foto", "ap-foto-fb");
-    h+="<div class='ap-meta'><div class='ap-nome'>"+p.nome+"</div><div class='ap-sub'>"+(rankPos[p.nome]||"-")+"\u00ba lugar &middot; "+p.total+" pts</div></div>";
+    h+="<div class='ap-meta'><div class='ap-nome'>"+p.nome+"</div><div class='ap-sub'>"+(rankPos[p.nome]||"-")+"\u00ba lugar &middot; "+p.total+" pts"+(p.campeao?(" &middot; "+flag(p.campeao)+" "+cap(p.campeao)):"")+"</div></div>";
     h+="<div class='chev' id='av-"+id+"'>\u25BE</div>";
     h+="</div>";
     h+="<div class='ap-corpo' id='ac-"+id+"'><div style='padding:0 16px 16px'>";
+    h+=campeaoCard;
     h+="<div class='pcard' style='margin-top:10px'><h3>Pontos por Fase</h3>"+rows;
     h+="<div class='prow' style='border-top:1px solid rgba(255,215,0,.2);margin-top:8px;padding-top:12px'><span style='font-weight:600'>Total acumulado</span><span class='pval' style='font-size:20px;color:var(--am)'>"+p.total+" pts</span></div>";
     h+="</div></div></div>";
