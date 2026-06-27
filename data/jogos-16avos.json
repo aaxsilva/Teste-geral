@@ -1,6 +1,108 @@
 {
   "fase": "16avos",
   "label": "16 Avos de Final",
+  "participantes": [
+    {
+      "participante": "Rafael Souza",
+      "arquivo": "rafael",
+      "campeao": "Camarões"
+    },
+    {
+      "participante": "Camila Ferreira",
+      "arquivo": "camila",
+      "campeao": "Dinamarca"
+    },
+    {
+      "participante": "Bruno Almeida",
+      "arquivo": "bruno",
+      "campeao": "Áustria"
+    },
+    {
+      "participante": "Larissa Costa",
+      "arquivo": "larissa",
+      "campeao": "Marrocos"
+    },
+    {
+      "participante": "Thiago Pereira",
+      "arquivo": "thiago",
+      "campeao": "Croácia"
+    },
+    {
+      "participante": "Juliana Rocha",
+      "arquivo": "juliana",
+      "campeao": "México"
+    },
+    {
+      "participante": "Marcelo Lima",
+      "arquivo": "marcelo",
+      "campeao": "Croácia"
+    },
+    {
+      "participante": "Fernanda Oliveira",
+      "arquivo": "fernanda",
+      "campeao": "Bélgica"
+    },
+    {
+      "participante": "Diego Santos",
+      "arquivo": "diego",
+      "campeao": "Senegal"
+    },
+    {
+      "participante": "Patricia Gomes",
+      "arquivo": "patricia",
+      "campeao": "Alemanha"
+    },
+    {
+      "participante": "Eduardo Martins",
+      "arquivo": "eduardo",
+      "campeao": "Espanha"
+    },
+    {
+      "participante": "Vanessa Carvalho",
+      "arquivo": "vanessa",
+      "campeao": "Uruguai"
+    },
+    {
+      "participante": "Rodrigo Barros",
+      "arquivo": "rodrigo",
+      "campeao": "Áustria"
+    },
+    {
+      "participante": "Aline Nogueira",
+      "arquivo": "aline",
+      "campeao": "Inglaterra"
+    },
+    {
+      "participante": "Felipe Cardoso",
+      "arquivo": "felipe",
+      "campeao": "Senegal"
+    },
+    {
+      "participante": "Renata Teixeira",
+      "arquivo": "renata",
+      "campeao": "Estados Unidos"
+    },
+    {
+      "participante": "Gustavo Pinto",
+      "arquivo": "gustavo",
+      "campeao": "Coreia do Sul"
+    },
+    {
+      "participante": "Bianca Ribeiro",
+      "arquivo": "bianca",
+      "campeao": "Bélgica"
+    },
+    {
+      "participante": "Leonardo Dias",
+      "arquivo": "leonardo",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Priscila Moura",
+      "arquivo": "priscila",
+      "campeao": "Espanha"
+    }
+  ],
   "jogos": [
     {
       "jogo": 73,
@@ -12,6 +114,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "África do Sul",
           "golsA": 4,
           "timeB": "Canadá",
@@ -20,6 +123,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "África do Sul",
           "golsA": 2,
           "timeB": "Canadá",
@@ -28,6 +132,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -36,6 +141,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "África do Sul",
           "golsA": 2,
           "timeB": "Canadá",
@@ -44,6 +150,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -52,6 +159,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "África do Sul",
           "golsA": 3,
           "timeB": "Canadá",
@@ -60,6 +168,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "África do Sul",
           "golsA": 4,
           "timeB": "Canadá",
@@ -68,6 +177,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "África do Sul",
           "golsA": 2,
           "timeB": "Canadá",
@@ -76,6 +186,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "África do Sul",
           "golsA": 4,
           "timeB": "Canadá",
@@ -84,6 +195,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -92,6 +204,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "África do Sul",
           "golsA": 4,
           "timeB": "Canadá",
@@ -100,6 +213,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "África do Sul",
           "golsA": 0,
           "timeB": "Canadá",
@@ -108,6 +222,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -116,6 +231,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "África do Sul",
           "golsA": 2,
           "timeB": "Canadá",
@@ -124,6 +240,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "África do Sul",
           "golsA": 3,
           "timeB": "Canadá",
@@ -132,6 +249,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "África do Sul",
           "golsA": 2,
           "timeB": "Canadá",
@@ -140,6 +258,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -148,6 +267,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -156,6 +276,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "África do Sul",
           "golsA": 4,
           "timeB": "Canadá",
@@ -164,6 +285,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "África do Sul",
           "golsA": 1,
           "timeB": "Canadá",
@@ -181,6 +303,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -189,6 +312,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -197,6 +321,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Brasil",
           "golsA": 4,
           "timeB": "Japão",
@@ -205,6 +330,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Brasil",
           "golsA": 4,
           "timeB": "Japão",
@@ -213,6 +339,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -221,6 +348,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Brasil",
           "golsA": 4,
           "timeB": "Japão",
@@ -229,6 +357,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Brasil",
           "golsA": 2,
           "timeB": "Japão",
@@ -237,6 +366,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Brasil",
           "golsA": 0,
           "timeB": "Japão",
@@ -245,6 +375,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Brasil",
           "golsA": 2,
           "timeB": "Japão",
@@ -253,6 +384,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -261,6 +393,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Brasil",
           "golsA": 1,
           "timeB": "Japão",
@@ -269,6 +402,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Brasil",
           "golsA": 4,
           "timeB": "Japão",
@@ -277,6 +411,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -285,6 +420,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Brasil",
           "golsA": 0,
           "timeB": "Japão",
@@ -293,6 +429,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Brasil",
           "golsA": 4,
           "timeB": "Japão",
@@ -301,6 +438,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -309,6 +447,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Brasil",
           "golsA": 3,
           "timeB": "Japão",
@@ -317,6 +456,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Brasil",
           "golsA": 1,
           "timeB": "Japão",
@@ -325,6 +465,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Brasil",
           "golsA": 4,
           "timeB": "Japão",
@@ -333,6 +474,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Brasil",
           "golsA": 1,
           "timeB": "Japão",
@@ -350,6 +492,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -358,6 +501,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Alemanha",
           "golsA": 4,
           "timeB": "TIME 1",
@@ -366,6 +510,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Alemanha",
           "golsA": 2,
           "timeB": "TIME 1",
@@ -374,6 +519,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -382,6 +528,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Alemanha",
           "golsA": 1,
           "timeB": "TIME 1",
@@ -390,6 +537,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Alemanha",
           "golsA": 2,
           "timeB": "TIME 1",
@@ -398,6 +546,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -406,6 +555,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Alemanha",
           "golsA": 4,
           "timeB": "TIME 1",
@@ -414,6 +564,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Alemanha",
           "golsA": 2,
           "timeB": "TIME 1",
@@ -422,6 +573,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Alemanha",
           "golsA": 1,
           "timeB": "TIME 1",
@@ -430,6 +582,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Alemanha",
           "golsA": 4,
           "timeB": "TIME 1",
@@ -438,6 +591,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -446,6 +600,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -454,6 +609,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -462,6 +618,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Alemanha",
           "golsA": 2,
           "timeB": "TIME 1",
@@ -470,6 +627,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Alemanha",
           "golsA": 0,
           "timeB": "TIME 1",
@@ -478,6 +636,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Alemanha",
           "golsA": 4,
           "timeB": "TIME 1",
@@ -486,6 +645,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -494,6 +654,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Alemanha",
           "golsA": 3,
           "timeB": "TIME 1",
@@ -502,6 +663,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Alemanha",
           "golsA": 0,
           "timeB": "TIME 1",
@@ -519,6 +681,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Holanda",
           "golsA": 1,
           "timeB": "Marrocos",
@@ -527,6 +690,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Holanda",
           "golsA": 3,
           "timeB": "Marrocos",
@@ -535,6 +699,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -543,6 +708,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Holanda",
           "golsA": 1,
           "timeB": "Marrocos",
@@ -551,6 +717,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -559,6 +726,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -567,6 +735,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Holanda",
           "golsA": 4,
           "timeB": "Marrocos",
@@ -575,6 +744,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Holanda",
           "golsA": 1,
           "timeB": "Marrocos",
@@ -583,6 +753,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Holanda",
           "golsA": 1,
           "timeB": "Marrocos",
@@ -591,6 +762,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Holanda",
           "golsA": 2,
           "timeB": "Marrocos",
@@ -599,6 +771,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Holanda",
           "golsA": 2,
           "timeB": "Marrocos",
@@ -607,6 +780,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -615,6 +789,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -623,6 +798,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Holanda",
           "golsA": 1,
           "timeB": "Marrocos",
@@ -631,6 +807,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -639,6 +816,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Holanda",
           "golsA": 4,
           "timeB": "Marrocos",
@@ -647,6 +825,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Holanda",
           "golsA": 4,
           "timeB": "Marrocos",
@@ -655,6 +834,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -663,6 +843,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Holanda",
           "golsA": 4,
           "timeB": "Marrocos",
@@ -671,6 +852,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Holanda",
           "golsA": 0,
           "timeB": "Marrocos",
@@ -688,6 +870,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Costa do Marfim",
           "golsA": 3,
           "timeB": "TIME 2",
@@ -696,6 +879,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Costa do Marfim",
           "golsA": 2,
           "timeB": "TIME 2",
@@ -704,6 +888,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Costa do Marfim",
           "golsA": 1,
           "timeB": "TIME 2",
@@ -712,6 +897,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Costa do Marfim",
           "golsA": 2,
           "timeB": "TIME 2",
@@ -720,6 +906,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Costa do Marfim",
           "golsA": 4,
           "timeB": "TIME 2",
@@ -728,6 +915,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Costa do Marfim",
           "golsA": 4,
           "timeB": "TIME 2",
@@ -736,6 +924,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Costa do Marfim",
           "golsA": 1,
           "timeB": "TIME 2",
@@ -744,6 +933,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Costa do Marfim",
           "golsA": 4,
           "timeB": "TIME 2",
@@ -752,6 +942,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Costa do Marfim",
           "golsA": 2,
           "timeB": "TIME 2",
@@ -760,6 +951,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Costa do Marfim",
           "golsA": 2,
           "timeB": "TIME 2",
@@ -768,6 +960,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Costa do Marfim",
           "golsA": 3,
           "timeB": "TIME 2",
@@ -776,6 +969,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Costa do Marfim",
           "golsA": 2,
           "timeB": "TIME 2",
@@ -784,6 +978,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Costa do Marfim",
           "golsA": 1,
           "timeB": "TIME 2",
@@ -792,6 +987,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Costa do Marfim",
           "golsA": 4,
           "timeB": "TIME 2",
@@ -800,6 +996,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Costa do Marfim",
           "golsA": 2,
           "timeB": "TIME 2",
@@ -808,6 +1005,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Costa do Marfim",
           "golsA": 0,
           "timeB": "TIME 2",
@@ -816,6 +1014,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Costa do Marfim",
           "golsA": 3,
           "timeB": "TIME 2",
@@ -824,6 +1023,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Costa do Marfim",
           "golsA": 0,
           "timeB": "TIME 2",
@@ -832,6 +1032,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Costa do Marfim",
           "golsA": 3,
           "timeB": "TIME 2",
@@ -840,6 +1041,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Costa do Marfim",
           "golsA": 4,
           "timeB": "TIME 2",
@@ -857,6 +1059,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "TIME 3",
           "golsA": 2,
           "timeB": "TIME 4",
@@ -865,6 +1068,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "TIME 3",
           "golsA": 0,
           "timeB": "TIME 4",
@@ -873,6 +1077,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -881,6 +1086,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "TIME 3",
           "golsA": 1,
           "timeB": "TIME 4",
@@ -889,6 +1095,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "TIME 3",
           "golsA": 2,
           "timeB": "TIME 4",
@@ -897,6 +1104,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "TIME 3",
           "golsA": 4,
           "timeB": "TIME 4",
@@ -905,6 +1113,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -913,6 +1122,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "TIME 3",
           "golsA": 4,
           "timeB": "TIME 4",
@@ -921,6 +1131,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "TIME 3",
           "golsA": 2,
           "timeB": "TIME 4",
@@ -929,6 +1140,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -937,6 +1149,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "TIME 3",
           "golsA": 1,
           "timeB": "TIME 4",
@@ -945,6 +1158,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -953,6 +1167,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "TIME 3",
           "golsA": 0,
           "timeB": "TIME 4",
@@ -961,6 +1176,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "TIME 3",
           "golsA": 2,
           "timeB": "TIME 4",
@@ -969,6 +1185,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "TIME 3",
           "golsA": 2,
           "timeB": "TIME 4",
@@ -977,6 +1194,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -985,6 +1203,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -993,6 +1212,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -1001,6 +1221,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "TIME 3",
           "golsA": 2,
           "timeB": "TIME 4",
@@ -1009,6 +1230,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "TIME 3",
           "golsA": 3,
           "timeB": "TIME 4",
@@ -1026,6 +1248,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "México",
           "golsA": 1,
           "timeB": "TIME 5",
@@ -1034,6 +1257,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "México",
           "golsA": 1,
           "timeB": "TIME 5",
@@ -1042,6 +1266,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "México",
           "golsA": 3,
           "timeB": "TIME 5",
@@ -1050,6 +1275,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "México",
           "golsA": 3,
           "timeB": "TIME 5",
@@ -1058,6 +1284,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "México",
           "golsA": 2,
           "timeB": "TIME 5",
@@ -1066,6 +1293,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "México",
           "golsA": 3,
           "timeB": "TIME 5",
@@ -1074,6 +1302,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "México",
           "golsA": 4,
           "timeB": "TIME 5",
@@ -1082,6 +1311,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "México",
           "golsA": 4,
           "timeB": "TIME 5",
@@ -1090,6 +1320,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "México",
           "golsA": 1,
           "timeB": "TIME 5",
@@ -1098,6 +1329,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "México",
           "golsA": 0,
           "timeB": "TIME 5",
@@ -1106,6 +1338,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "México",
           "golsA": 3,
           "timeB": "TIME 5",
@@ -1114,6 +1347,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "México",
           "golsA": 4,
           "timeB": "TIME 5",
@@ -1122,6 +1356,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "México",
           "golsA": 2,
           "timeB": "TIME 5",
@@ -1130,6 +1365,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "México",
           "golsA": 3,
           "timeB": "TIME 5",
@@ -1138,6 +1374,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "México",
           "golsA": 1,
           "timeB": "TIME 5",
@@ -1146,6 +1383,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "México",
           "golsA": 1,
           "timeB": "TIME 5",
@@ -1154,6 +1392,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "México",
           "golsA": 2,
           "timeB": "TIME 5",
@@ -1162,6 +1401,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "México",
           "golsA": 0,
           "timeB": "TIME 5",
@@ -1170,6 +1410,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "México",
           "golsA": 2,
           "timeB": "TIME 5",
@@ -1178,6 +1419,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "México",
           "golsA": 4,
           "timeB": "TIME 5",
@@ -1195,6 +1437,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "TIME 6",
           "golsA": 4,
           "timeB": "TIME 7",
@@ -1203,6 +1446,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "TIME 6",
           "golsA": 4,
           "timeB": "TIME 7",
@@ -1211,6 +1455,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "TIME 6",
           "golsA": 2,
           "timeB": "TIME 7",
@@ -1219,6 +1464,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "TIME 6",
           "golsA": 3,
           "timeB": "TIME 7",
@@ -1227,6 +1473,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "TIME 6",
           "golsA": 1,
           "timeB": "TIME 7",
@@ -1235,6 +1482,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "TIME 6",
           "golsA": 0,
           "timeB": "TIME 7",
@@ -1243,6 +1491,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "TIME 6",
           "golsA": 2,
           "timeB": "TIME 7",
@@ -1251,6 +1500,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "TIME 6",
           "golsA": 2,
           "timeB": "TIME 7",
@@ -1259,6 +1509,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "TIME 6",
           "golsA": 0,
           "timeB": "TIME 7",
@@ -1267,6 +1518,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "TIME 6",
           "golsA": 1,
           "timeB": "TIME 7",
@@ -1275,6 +1527,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "TIME 6",
           "golsA": 3,
           "timeB": "TIME 7",
@@ -1283,6 +1536,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "TIME 6",
           "golsA": 2,
           "timeB": "TIME 7",
@@ -1291,6 +1545,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "TIME 6",
           "golsA": 1,
           "timeB": "TIME 7",
@@ -1299,6 +1554,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "TIME 6",
           "golsA": 2,
           "timeB": "TIME 7",
@@ -1307,6 +1563,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "TIME 6",
           "golsA": 0,
           "timeB": "TIME 7",
@@ -1315,6 +1572,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "TIME 6",
           "golsA": 4,
           "timeB": "TIME 7",
@@ -1323,6 +1581,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "TIME 6",
           "golsA": 0,
           "timeB": "TIME 7",
@@ -1331,6 +1590,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "TIME 6",
           "golsA": 1,
           "timeB": "TIME 7",
@@ -1339,6 +1599,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "TIME 6",
           "golsA": 0,
           "timeB": "TIME 7",
@@ -1347,6 +1608,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "TIME 6",
           "golsA": 1,
           "timeB": "TIME 7",
@@ -1364,6 +1626,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1372,6 +1635,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "TIME 8",
           "golsA": 4,
           "timeB": "TIME 9",
@@ -1380,6 +1644,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "TIME 8",
           "golsA": 1,
           "timeB": "TIME 9",
@@ -1388,6 +1653,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1396,6 +1662,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "TIME 8",
           "golsA": 1,
           "timeB": "TIME 9",
@@ -1404,6 +1671,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "TIME 8",
           "golsA": 0,
           "timeB": "TIME 9",
@@ -1412,6 +1680,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "TIME 8",
           "golsA": 0,
           "timeB": "TIME 9",
@@ -1420,6 +1689,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "TIME 8",
           "golsA": 1,
           "timeB": "TIME 9",
@@ -1428,6 +1698,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1436,6 +1707,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1444,6 +1716,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1452,6 +1725,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "TIME 8",
           "golsA": 0,
           "timeB": "TIME 9",
@@ -1460,6 +1734,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "TIME 8",
           "golsA": 4,
           "timeB": "TIME 9",
@@ -1468,6 +1743,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1476,6 +1752,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "TIME 8",
           "golsA": 0,
           "timeB": "TIME 9",
@@ -1484,6 +1761,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "TIME 8",
           "golsA": 1,
           "timeB": "TIME 9",
@@ -1492,6 +1770,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "TIME 8",
           "golsA": 3,
           "timeB": "TIME 9",
@@ -1500,6 +1779,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "TIME 8",
           "golsA": 1,
           "timeB": "TIME 9",
@@ -1508,6 +1788,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "TIME 8",
           "golsA": 0,
           "timeB": "TIME 9",
@@ -1516,6 +1797,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "TIME 8",
           "golsA": 0,
           "timeB": "TIME 9",
@@ -1533,6 +1815,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Estados Unidos",
           "golsA": 0,
           "timeB": "Bósnia e Herzegovina",
@@ -1541,6 +1824,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1549,6 +1833,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Estados Unidos",
           "golsA": 3,
           "timeB": "Bósnia e Herzegovina",
@@ -1557,6 +1842,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Estados Unidos",
           "golsA": 1,
           "timeB": "Bósnia e Herzegovina",
@@ -1565,6 +1851,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Estados Unidos",
           "golsA": 3,
           "timeB": "Bósnia e Herzegovina",
@@ -1573,6 +1860,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Estados Unidos",
           "golsA": 1,
           "timeB": "Bósnia e Herzegovina",
@@ -1581,6 +1869,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Estados Unidos",
           "golsA": 0,
           "timeB": "Bósnia e Herzegovina",
@@ -1589,6 +1878,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1597,6 +1887,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1605,6 +1896,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Estados Unidos",
           "golsA": 0,
           "timeB": "Bósnia e Herzegovina",
@@ -1613,6 +1905,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1621,6 +1914,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Estados Unidos",
           "golsA": 3,
           "timeB": "Bósnia e Herzegovina",
@@ -1629,6 +1923,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Estados Unidos",
           "golsA": 3,
           "timeB": "Bósnia e Herzegovina",
@@ -1637,6 +1932,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1645,6 +1941,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1653,6 +1950,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Estados Unidos",
           "golsA": 2,
           "timeB": "Bósnia e Herzegovina",
@@ -1661,6 +1959,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Estados Unidos",
           "golsA": 1,
           "timeB": "Bósnia e Herzegovina",
@@ -1669,6 +1968,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Estados Unidos",
           "golsA": 4,
           "timeB": "Bósnia e Herzegovina",
@@ -1677,6 +1977,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Estados Unidos",
           "golsA": 1,
           "timeB": "Bósnia e Herzegovina",
@@ -1685,6 +1986,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Estados Unidos",
           "golsA": 1,
           "timeB": "Bósnia e Herzegovina",
@@ -1702,6 +2004,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "TIME 10",
           "golsA": 4,
           "timeB": "TIME 11",
@@ -1710,6 +2013,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "TIME 10",
           "golsA": 2,
           "timeB": "TIME 11",
@@ -1718,6 +2022,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "TIME 10",
           "golsA": 1,
           "timeB": "TIME 11",
@@ -1726,6 +2031,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "TIME 10",
           "golsA": 3,
           "timeB": "TIME 11",
@@ -1734,6 +2040,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "TIME 10",
           "golsA": 3,
           "timeB": "TIME 11",
@@ -1742,6 +2049,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "TIME 10",
           "golsA": 4,
           "timeB": "TIME 11",
@@ -1750,6 +2058,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "TIME 10",
           "golsA": 3,
           "timeB": "TIME 11",
@@ -1758,6 +2067,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "TIME 10",
           "golsA": 4,
           "timeB": "TIME 11",
@@ -1766,6 +2076,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "TIME 10",
           "golsA": 4,
           "timeB": "TIME 11",
@@ -1774,6 +2085,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "TIME 10",
           "golsA": 2,
           "timeB": "TIME 11",
@@ -1782,6 +2094,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "TIME 10",
           "golsA": 0,
           "timeB": "TIME 11",
@@ -1790,6 +2103,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "TIME 10",
           "golsA": 0,
           "timeB": "TIME 11",
@@ -1798,6 +2112,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "TIME 10",
           "golsA": 3,
           "timeB": "TIME 11",
@@ -1806,6 +2121,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "TIME 10",
           "golsA": 0,
           "timeB": "TIME 11",
@@ -1814,6 +2130,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "TIME 10",
           "golsA": 0,
           "timeB": "TIME 11",
@@ -1822,6 +2139,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "TIME 10",
           "golsA": 1,
           "timeB": "TIME 11",
@@ -1830,6 +2148,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "TIME 10",
           "golsA": 3,
           "timeB": "TIME 11",
@@ -1838,6 +2157,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "TIME 10",
           "golsA": 3,
           "timeB": "TIME 11",
@@ -1846,6 +2166,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "TIME 10",
           "golsA": 1,
           "timeB": "TIME 11",
@@ -1854,6 +2175,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "TIME 10",
           "golsA": 0,
           "timeB": "TIME 11",
@@ -1871,6 +2193,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "TIME 12",
           "golsA": 1,
           "timeB": "TIME 13",
@@ -1879,6 +2202,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "TIME 12",
           "golsA": 4,
           "timeB": "TIME 13",
@@ -1887,6 +2211,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "TIME 12",
           "golsA": 4,
           "timeB": "TIME 13",
@@ -1895,6 +2220,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "TIME 12",
           "golsA": 0,
           "timeB": "TIME 13",
@@ -1903,6 +2229,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "TIME 12",
           "golsA": 1,
           "timeB": "TIME 13",
@@ -1911,6 +2238,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "TIME 12",
           "golsA": 1,
           "timeB": "TIME 13",
@@ -1919,6 +2247,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "TIME 12",
           "golsA": 3,
           "timeB": "TIME 13",
@@ -1927,6 +2256,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "TIME 12",
           "golsA": 3,
           "timeB": "TIME 13",
@@ -1935,6 +2265,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "TIME 12",
           "golsA": 4,
           "timeB": "TIME 13",
@@ -1943,6 +2274,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "TIME 12",
           "golsA": 3,
           "timeB": "TIME 13",
@@ -1951,6 +2283,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "TIME 12",
           "golsA": 2,
           "timeB": "TIME 13",
@@ -1959,6 +2292,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "TIME 12",
           "golsA": 0,
           "timeB": "TIME 13",
@@ -1967,6 +2301,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "TIME 12",
           "golsA": 4,
           "timeB": "TIME 13",
@@ -1975,6 +2310,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "TIME 12",
           "golsA": 2,
           "timeB": "TIME 13",
@@ -1983,6 +2319,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "TIME 12",
           "golsA": 1,
           "timeB": "TIME 13",
@@ -1991,6 +2328,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "TIME 12",
           "golsA": 4,
           "timeB": "TIME 13",
@@ -1999,6 +2337,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "TIME 12",
           "golsA": 0,
           "timeB": "TIME 13",
@@ -2007,6 +2346,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "TIME 12",
           "golsA": 2,
           "timeB": "TIME 13",
@@ -2015,6 +2355,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "TIME 12",
           "golsA": 2,
           "timeB": "TIME 13",
@@ -2023,6 +2364,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "TIME 12",
           "golsA": 1,
           "timeB": "TIME 13",
@@ -2040,6 +2382,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Suíça",
           "golsA": 2,
           "timeB": "TIME 14",
@@ -2048,6 +2391,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Suíça",
           "golsA": 4,
           "timeB": "TIME 14",
@@ -2056,6 +2400,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Suíça",
           "golsA": 2,
           "timeB": "TIME 14",
@@ -2064,6 +2409,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Suíça",
           "golsA": 1,
           "timeB": "TIME 14",
@@ -2072,6 +2418,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Suíça",
           "golsA": 0,
           "timeB": "TIME 14",
@@ -2080,6 +2427,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Suíça",
           "golsA": 4,
           "timeB": "TIME 14",
@@ -2088,6 +2436,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Suíça",
           "golsA": 2,
           "timeB": "TIME 14",
@@ -2096,6 +2445,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Suíça",
           "golsA": 4,
           "timeB": "TIME 14",
@@ -2104,6 +2454,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Suíça",
           "golsA": 4,
           "timeB": "TIME 14",
@@ -2112,6 +2463,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Suíça",
           "golsA": 1,
           "timeB": "TIME 14",
@@ -2120,6 +2472,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Suíça",
           "golsA": 1,
           "timeB": "TIME 14",
@@ -2128,6 +2481,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Suíça",
           "golsA": 3,
           "timeB": "TIME 14",
@@ -2136,6 +2490,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Suíça",
           "golsA": 1,
           "timeB": "TIME 14",
@@ -2144,6 +2499,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Suíça",
           "golsA": 1,
           "timeB": "TIME 14",
@@ -2152,6 +2508,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Suíça",
           "golsA": 3,
           "timeB": "TIME 14",
@@ -2160,6 +2517,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Suíça",
           "golsA": 3,
           "timeB": "TIME 14",
@@ -2168,6 +2526,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Suíça",
           "golsA": 0,
           "timeB": "TIME 14",
@@ -2176,6 +2535,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Suíça",
           "golsA": 0,
           "timeB": "TIME 14",
@@ -2184,6 +2544,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Suíça",
           "golsA": 2,
           "timeB": "TIME 14",
@@ -2192,6 +2553,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Suíça",
           "golsA": 1,
           "timeB": "TIME 14",
@@ -2209,6 +2571,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Austrália",
           "golsA": 3,
           "timeB": "TIME 15",
@@ -2217,6 +2580,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Austrália",
           "golsA": 0,
           "timeB": "TIME 15",
@@ -2225,6 +2589,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Austrália",
           "golsA": 1,
           "timeB": "TIME 15",
@@ -2233,6 +2598,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Austrália",
           "golsA": 1,
           "timeB": "TIME 15",
@@ -2241,6 +2607,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Austrália",
           "golsA": 0,
           "timeB": "TIME 15",
@@ -2249,6 +2616,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Austrália",
           "golsA": 2,
           "timeB": "TIME 15",
@@ -2257,6 +2625,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Austrália",
           "golsA": 2,
           "timeB": "TIME 15",
@@ -2265,6 +2634,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Austrália",
           "golsA": 4,
           "timeB": "TIME 15",
@@ -2273,6 +2643,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Austrália",
           "golsA": 2,
           "timeB": "TIME 15",
@@ -2281,6 +2652,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Austrália",
           "golsA": 4,
           "timeB": "TIME 15",
@@ -2289,6 +2661,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Austrália",
           "golsA": 2,
           "timeB": "TIME 15",
@@ -2297,6 +2670,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Austrália",
           "golsA": 3,
           "timeB": "TIME 15",
@@ -2305,6 +2679,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Austrália",
           "golsA": 1,
           "timeB": "TIME 15",
@@ -2313,6 +2688,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Austrália",
           "golsA": 0,
           "timeB": "TIME 15",
@@ -2321,6 +2697,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Austrália",
           "golsA": 2,
           "timeB": "TIME 15",
@@ -2329,6 +2706,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Austrália",
           "golsA": 1,
           "timeB": "TIME 15",
@@ -2337,6 +2715,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Austrália",
           "golsA": 0,
           "timeB": "TIME 15",
@@ -2345,6 +2724,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Austrália",
           "golsA": 1,
           "timeB": "TIME 15",
@@ -2353,6 +2733,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Austrália",
           "golsA": 4,
           "timeB": "TIME 15",
@@ -2361,6 +2742,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Austrália",
           "golsA": 3,
           "timeB": "TIME 15",
@@ -2378,6 +2760,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "Argentina",
           "golsA": 3,
           "timeB": "TIME 16",
@@ -2386,6 +2769,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "Argentina",
           "golsA": 4,
           "timeB": "TIME 16",
@@ -2394,6 +2778,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "Argentina",
           "golsA": 2,
           "timeB": "TIME 16",
@@ -2402,6 +2787,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "Argentina",
           "golsA": 2,
           "timeB": "TIME 16",
@@ -2410,6 +2796,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2418,6 +2805,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "Argentina",
           "golsA": 1,
           "timeB": "TIME 16",
@@ -2426,6 +2814,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "Argentina",
           "golsA": 3,
           "timeB": "TIME 16",
@@ -2434,6 +2823,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2442,6 +2832,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "Argentina",
           "golsA": 4,
           "timeB": "TIME 16",
@@ -2450,6 +2841,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "Argentina",
           "golsA": 4,
           "timeB": "TIME 16",
@@ -2458,6 +2850,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "Argentina",
           "golsA": 1,
           "timeB": "TIME 16",
@@ -2466,6 +2859,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "Argentina",
           "golsA": 3,
           "timeB": "TIME 16",
@@ -2474,6 +2868,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2482,6 +2877,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "Argentina",
           "golsA": 4,
           "timeB": "TIME 16",
@@ -2490,6 +2886,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "Argentina",
           "golsA": 2,
           "timeB": "TIME 16",
@@ -2498,6 +2895,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2506,6 +2904,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2514,6 +2913,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "Argentina",
           "golsA": 4,
           "timeB": "TIME 16",
@@ -2522,6 +2922,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2530,6 +2931,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "Argentina",
           "golsA": 0,
           "timeB": "TIME 16",
@@ -2547,6 +2949,7 @@
         {
           "participante": "Rafael Souza",
           "arquivo": "rafael",
+          "campeao": "Camarões",
           "timeA": "TIME 17",
           "golsA": 0,
           "timeB": "TIME 18",
@@ -2555,6 +2958,7 @@
         {
           "participante": "Camila Ferreira",
           "arquivo": "camila",
+          "campeao": "Dinamarca",
           "timeA": "TIME 17",
           "golsA": 2,
           "timeB": "TIME 18",
@@ -2563,6 +2967,7 @@
         {
           "participante": "Bruno Almeida",
           "arquivo": "bruno",
+          "campeao": "Áustria",
           "timeA": "TIME 17",
           "golsA": 4,
           "timeB": "TIME 18",
@@ -2571,6 +2976,7 @@
         {
           "participante": "Larissa Costa",
           "arquivo": "larissa",
+          "campeao": "Marrocos",
           "timeA": "TIME 17",
           "golsA": 0,
           "timeB": "TIME 18",
@@ -2579,6 +2985,7 @@
         {
           "participante": "Thiago Pereira",
           "arquivo": "thiago",
+          "campeao": "Croácia",
           "timeA": "TIME 17",
           "golsA": 0,
           "timeB": "TIME 18",
@@ -2587,6 +2994,7 @@
         {
           "participante": "Juliana Rocha",
           "arquivo": "juliana",
+          "campeao": "México",
           "timeA": "TIME 17",
           "golsA": 3,
           "timeB": "TIME 18",
@@ -2595,6 +3003,7 @@
         {
           "participante": "Marcelo Lima",
           "arquivo": "marcelo",
+          "campeao": "Croácia",
           "timeA": "TIME 17",
           "golsA": 3,
           "timeB": "TIME 18",
@@ -2603,6 +3012,7 @@
         {
           "participante": "Fernanda Oliveira",
           "arquivo": "fernanda",
+          "campeao": "Bélgica",
           "timeA": "TIME 17",
           "golsA": 4,
           "timeB": "TIME 18",
@@ -2611,6 +3021,7 @@
         {
           "participante": "Diego Santos",
           "arquivo": "diego",
+          "campeao": "Senegal",
           "timeA": "TIME 17",
           "golsA": 0,
           "timeB": "TIME 18",
@@ -2619,6 +3030,7 @@
         {
           "participante": "Patricia Gomes",
           "arquivo": "patricia",
+          "campeao": "Alemanha",
           "timeA": "TIME 17",
           "golsA": 1,
           "timeB": "TIME 18",
@@ -2627,6 +3039,7 @@
         {
           "participante": "Eduardo Martins",
           "arquivo": "eduardo",
+          "campeao": "Espanha",
           "timeA": "TIME 17",
           "golsA": 1,
           "timeB": "TIME 18",
@@ -2635,6 +3048,7 @@
         {
           "participante": "Vanessa Carvalho",
           "arquivo": "vanessa",
+          "campeao": "Uruguai",
           "timeA": "TIME 17",
           "golsA": 2,
           "timeB": "TIME 18",
@@ -2643,6 +3057,7 @@
         {
           "participante": "Rodrigo Barros",
           "arquivo": "rodrigo",
+          "campeao": "Áustria",
           "timeA": "TIME 17",
           "golsA": 4,
           "timeB": "TIME 18",
@@ -2651,6 +3066,7 @@
         {
           "participante": "Aline Nogueira",
           "arquivo": "aline",
+          "campeao": "Inglaterra",
           "timeA": "TIME 17",
           "golsA": 4,
           "timeB": "TIME 18",
@@ -2659,6 +3075,7 @@
         {
           "participante": "Felipe Cardoso",
           "arquivo": "felipe",
+          "campeao": "Senegal",
           "timeA": "TIME 17",
           "golsA": 2,
           "timeB": "TIME 18",
@@ -2667,6 +3084,7 @@
         {
           "participante": "Renata Teixeira",
           "arquivo": "renata",
+          "campeao": "Estados Unidos",
           "timeA": "TIME 17",
           "golsA": 2,
           "timeB": "TIME 18",
@@ -2675,6 +3093,7 @@
         {
           "participante": "Gustavo Pinto",
           "arquivo": "gustavo",
+          "campeao": "Coreia do Sul",
           "timeA": "TIME 17",
           "golsA": 3,
           "timeB": "TIME 18",
@@ -2683,6 +3102,7 @@
         {
           "participante": "Bianca Ribeiro",
           "arquivo": "bianca",
+          "campeao": "Bélgica",
           "timeA": "TIME 17",
           "golsA": 2,
           "timeB": "TIME 18",
@@ -2691,6 +3111,7 @@
         {
           "participante": "Leonardo Dias",
           "arquivo": "leonardo",
+          "campeao": "Argentina",
           "timeA": "TIME 17",
           "golsA": 1,
           "timeB": "TIME 18",
@@ -2699,6 +3120,7 @@
         {
           "participante": "Priscila Moura",
           "arquivo": "priscila",
+          "campeao": "Espanha",
           "timeA": "TIME 17",
           "golsA": 1,
           "timeB": "TIME 18",
