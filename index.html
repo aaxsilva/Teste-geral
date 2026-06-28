@@ -884,6 +884,7 @@ function renderPodium(){
   function cardHtml(p, classe, medalha, posicao){
     var h = "<div class='pod-card "+classe+"'>";
     h += "<div class='pod-medal'>"+medalha+"</div>";
+    h += imgTag(p.arquivo, p.nome, "pod-foto", "pod-foto-fb");
     h += "<div class='pod-nome'>"+p.nome+"</div>";
     h += "<div class='pod-pts'>"+p.total+"</div>";
     h += "<div class='pod-pts-lbl'>"+posicao+"\u00ba lugar</div>";
