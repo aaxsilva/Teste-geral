@@ -118,7 +118,7 @@
       "jogo": 75,
       "timeA": "Alemanha",
       "golsA": null,
-      "timeB": "TIME 1",
+      "timeB": "Paraguai",
       "golsB": null,
       "palpites": [
         {
@@ -208,7 +208,7 @@
       "jogo": 77,
       "timeA": "Costa do Marfim",
       "golsA": null,
-      "timeB": "TIME 2",
+      "timeB": "Noruega",
       "golsB": null,
       "palpites": [
         {
@@ -251,9 +251,9 @@
     },
     {
       "jogo": 78,
-      "timeA": "TIME 3",
+      "timeA": "França",
       "golsA": null,
-      "timeB": "TIME 4",
+      "timeB": "Suécia",
       "golsB": null,
       "palpites": [
         {
@@ -298,7 +298,7 @@
       "jogo": 79,
       "timeA": "México",
       "golsA": null,
-      "timeB": "TIME 5",
+      "timeB": "Equador",
       "golsB": null,
       "palpites": [
         {
@@ -341,9 +341,9 @@
     },
     {
       "jogo": 80,
-      "timeA": "TIME 6",
+      "timeA": "Inglaterra",
       "golsA": null,
-      "timeB": "TIME 7",
+      "timeB": "RD Congo",
       "golsB": null,
       "palpites": [
         {
@@ -386,9 +386,9 @@
     },
     {
       "jogo": 81,
-      "timeA": "TIME 8",
+      "timeA": "Bélgica",
       "golsA": null,
-      "timeB": "TIME 9",
+      "timeB": "Senegal",
       "golsB": null,
       "palpites": [
         {
@@ -476,9 +476,9 @@
     },
     {
       "jogo": 83,
-      "timeA": "TIME 10",
+      "timeA": "Espanha",
       "golsA": null,
-      "timeB": "TIME 11",
+      "timeB": "Áustria",
       "golsB": null,
       "palpites": [
         {
@@ -521,9 +521,9 @@
     },
     {
       "jogo": 84,
-      "timeA": "TIME 12",
+      "timeA": "Portugal",
       "golsA": null,
-      "timeB": "TIME 13",
+      "timeB": "Croácia",
       "golsB": null,
       "palpites": [
         {
@@ -568,7 +568,7 @@
       "jogo": 85,
       "timeA": "Suíça",
       "golsA": null,
-      "timeB": "TIME 14",
+      "timeB": "Argélia",
       "golsB": null,
       "palpites": [
         {
@@ -613,7 +613,7 @@
       "jogo": 86,
       "timeA": "Austrália",
       "golsA": null,
-      "timeB": "TIME 15",
+      "timeB": "Egito",
       "golsB": null,
       "palpites": [
         {
@@ -658,7 +658,7 @@
       "jogo": 87,
       "timeA": "Argentina",
       "golsA": null,
-      "timeB": "TIME 16",
+      "timeB": "Cabo Verde",
       "golsB": null,
       "palpites": [
         {
@@ -701,9 +701,9 @@
     },
     {
       "jogo": 88,
-      "timeA": "TIME 17",
+      "timeA": "Colômbia",
       "golsA": null,
-      "timeB": "TIME 18",
+      "timeB": "Gana",
       "golsB": null,
       "palpites": [
         {
