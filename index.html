@@ -89,7 +89,9 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 @media(max-width:640px){nav.dn{display:none;}.mn{display:flex;}main{padding-bottom:72px;}}
 
 /* EXTRA - novas abas */
-.pod-wrap{display:flex;gap:12px;justify-content:center;align-items:flex-end;margin-bottom:24px;flex-wrap:wrap;}
+.pod-wrap{display:flex;flex-direction:column;align-items:center;gap:14px;margin-bottom:24px;}
+.pod-top{display:flex;justify-content:center;}
+.pod-bottom{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
 .pod-card{background:var(--cd);border-radius:12px;padding:18px 16px;text-align:center;border:1px solid var(--bd);width:140px;}
 .pod-card.p1{border-color:var(--ou);transform:translateY(-10px);}
 .pod-card.p2{border-color:var(--pr);}
@@ -331,6 +333,13 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
     <div class="prow"><span>Placar exato</span><span class="pval">+5 pts</span></div>
     <div class="prow"><span>Resultado certo (vencedor), placar diferente</span><span class="pval">+3 pts</span></div>
     <div class="prow"><span>Resultado errado</span><span class="pval" style="color:var(--sv)">0 pts</span></div>
+  </div>
+  <div class="pcard" style="border-color:rgba(212,175,55,.35)">
+    <h3>&#x1F3C6; Bonus &mdash; Campeao da Copa</h3>
+    <div class="prow"><span>Acertar o campeao <small style="display:block;color:var(--sv);margin-top:2px">(a aposta do campeao deve ser feita somente na 16 avos)</small></span><span class="pval" style="color:var(--ou)">+10 pts</span></div>
+    <div style="font-size:12.5px;color:var(--sv);line-height:1.5;margin-top:10px;padding-top:10px;border-top:1px solid var(--bd)">
+      A somatoria de 5 e 3 pontos vai ocorrer ao longo das fases. Na fase final, quem acertar o campeao vai ganhar 10 pontos.
+    </div>
   </div>
   <div class="pcard">
     <h3>&#x2139;&#xfe0f; Como funciona</h3>
@@ -590,8 +599,7 @@ var PARTICIPANTES = {};    // nome -> {arquivo foto}
 var RANKING = [];
 
 function imgTag(arquivo, nome, cls, clsfb){
-  var inicial = nome ? nome.charAt(0) : "?";
-  return "<img src='images/"+arquivo+".jpg' class='"+cls+"' onerror=\"this.outerHTML='<div class\\'"+clsfb+"\\'>"+inicial+"</div>'\" alt='"+nome+"'>";
+  return "<img src='images/"+arquivo+".jpg' class='"+cls+"' onerror=\"this.outerHTML='<div class\\'"+clsfb+"\\'>&#x1F464;</div>'\" alt='"+nome+"'>";
 }
 
 // ---------- CARREGAMENTO ----------
@@ -851,22 +859,24 @@ function renderPodium(){
   var wrap = document.getElementById("pod-wrap");
   if(!wrap) return;
   if(top3.length<3){ wrap.innerHTML="<div class='av-box'>Ranking ainda nao tem participantes suficientes.</div>"; return; }
-  var ordem = [top3[1], top3[0], top3[2]];
-  var classes = ["p2","p1","p3"];
-  var medals = ["\uD83E\uDD48","\uD83E\uDD47","\uD83E\uDD49"];
-  var posReal = [2,1,3];
-  var h="";
-  for(var i=0;i<3;i++){
-    var p=ordem[i];
-    h+="<div class='pod-card "+classes[i]+"'>";
-    h+="<div class='pod-medal'>"+medals[i]+"</div>";
-    h+=imgTag(p.arquivo, p.nome, "pod-foto", "pod-foto-fb");
-    h+="<div class='pod-nome'>"+p.nome+"</div>";
-    h+="<div class='pod-pts'>"+p.total+"</div>";
-    h+="<div class='pod-pts-lbl'>"+posReal[i]+"\u00ba lugar</div>";
-    h+="</div>";
+
+  function cardHtml(p, classe, medalha, posicao){
+    var h = "<div class='pod-card "+classe+"'>";
+    h += "<div class='pod-medal'>"+medalha+"</div>";
+    h += "<div class='pod-nome'>"+p.nome+"</div>";
+    h += "<div class='pod-pts'>"+p.total+"</div>";
+    h += "<div class='pod-pts-lbl'>"+posicao+"\u00ba lugar</div>";
+    h += "</div>";
+    return h;
   }
-  wrap.innerHTML=h;
+
+  var h = "<div class='pod-top'>"+cardHtml(top3[0], "p1", "\uD83E\uDD47", 1)+"</div>";
+  h += "<div class='pod-bottom'>";
+  h += cardHtml(top3[1], "p2", "\uD83E\uDD48", 2);
+  h += cardHtml(top3[2], "p3", "\uD83E\uDD49", 3);
+  h += "</div>";
+
+  wrap.innerHTML = h;
 }
 
 // ---------- JOGOS DO DIA ----------
@@ -917,17 +927,19 @@ function renderDia(){
 
     h+="<div class='jc'>";
     h+="<div class='jch'><span class='dt'>Jogo "+j.jogo+" &middot; "+f.l+"</span><span>"+(temResultado(j)?("Resultado: "+j.golsA+"x"+j.golsB):"Aguardando inicio")+"</span></div>";
-    h+="<div class='jcb' style='cursor:default'>";
+    h+="<div class='jcb' onclick=\"toggleJogo('"+id+"')\">";
     h+="<div class='ti'><span class='fl'>"+fa+"</span><span class='tn'>"+cap(j.timeA)+"</span></div>";
-    h+="<div class='pc'><div class='pl'>"+placarHTML(j.golsA,j.golsB)+"</div></div>";
+    h+="<div class='pc'><div class='pl'>"+placarHTML(j.golsA,j.golsB)+"</div>"+(temResultado(j)?"":"<div class='ps age'>Aguardando</div>")+"</div>";
     h+="<div class='ti'><span class='fl'>"+fb+"</span><span class='tn'>"+cap(j.timeB)+"</span></div>";
+    h+="<div class='chev' id='jv-"+id+"'>\u25BE</div>";
     h+="</div>";
-    h+="<div style='padding:0 14px 14px'>";
+    h+="<div class='jcorpo' id='jc-"+id+"'>";
+    h+="<div style='padding:14px 14px 0'>";
     h+="<div class='dist-row'><div class='dist-label vc'>Vitoria: "+cap(j.timeA)+"</div><div class='dist-ap'>"+vA+" apostas</div><div class='dist-bbg'><div class='dist-bfill gn' style='width:"+pctA+"%'></div></div><div class='dist-pct'>"+pctA+"%</div></div>";
     h+="<div class='dist-row'><div class='dist-label em'>Empate</div><div class='dist-ap'>"+vE+" apostas</div><div class='dist-bbg'><div class='dist-bfill gz' style='width:"+pctE+"%'></div></div><div class='dist-pct'>"+pctE+"%</div></div>";
     h+="<div class='dist-row'><div class='dist-label vf'>Vitoria: "+cap(j.timeB)+"</div><div class='dist-ap'>"+vB+" apostas</div><div class='dist-bbg'><div class='dist-bfill gv' style='width:"+pctB+"%'></div></div><div class='dist-pct'>"+pctB+"%</div></div>";
     h+="<div class='plac-tt'>Placares Mais Apostados</div>"+ph;
-    h+="</div></div>";
+    h+="</div></div></div>";
   });
   cont.innerHTML=h;
 }
