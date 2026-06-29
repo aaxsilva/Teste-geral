@@ -928,12 +928,11 @@ function renderPodium(){
 
   var hasLivePod = TODOS_JOGOS.some(function(j){ return j.status==="live"; });
   function cardHtml(p, classe, medalha, posicao){
-    var totalMostrado = hasLivePod ? p.total + p.livePts : p.total;
     var h = "<div class='pod-card "+classe+"'>";
     h += "<div class='pod-medal'>"+medalha+"</div>";
     h += imgTag(p.arquivo, p.nome, "pod-foto", "pod-foto-fb");
     h += "<div class='pod-nome'>"+p.nome+"</div>";
-    h += "<div class='pod-pts'>"+totalMostrado+" pts</div>";
+    h += "<div class='pod-pts'>"+p.total+" pts</div>";
     if(hasLivePod && p.livePts>0){
       h += "<div class='pod-parcial'>+"+p.livePts+" parcial</div>";
     }
