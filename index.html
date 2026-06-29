@@ -1220,7 +1220,23 @@ function setStatusOK(){
   var t=document.getElementById("status-text");
   if(t){
     var hora = lastUpdated ? lastUpdated.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"}) : "";
-    t.textContent = "Atualizado "+hora;
+    // Verifica se há jogo ao vivo
+    var liveJogos = TODOS_JOGOS.filter(function(j){ return j.status==="live"; });
+    var liveInfo = "";
+    if(liveJogos.length>0){
+      var j = liveJogos[0];
+      liveInfo = " \u2022 \uD83D\uDD34 "+cap(j.timeA)+" "+j.golsA+"-"+j.golsB+" "+cap(j.timeB);
+    }
+    t.textContent = "Atualizado "+hora+liveInfo;
+  }
+  // Atualiza também o botão de atualizar com a hora
+  var btn=document.getElementById("refresh-btn");
+  var icon=document.getElementById("refresh-icon");
+  if(btn && lastUpdated){
+    var hora2 = lastUpdated.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+    var liveJogos2 = TODOS_JOGOS.filter(function(j){ return j.status==="live"; });
+    var liveTag = liveJogos2.length>0 ? " \uD83D\uDD34 " : "";
+    btn.innerHTML = "<span id='refresh-icon'>\u21BB</span> "+hora2+liveTag;
   }
 }
 function setStatusError(){
