@@ -458,8 +458,15 @@ function parseWorldcup26(list){
     var finishedFlag = String(m.finished || "").toUpperCase();
     var timeElapsed = String(m.time_elapsed || m.status || m.match_status || "").toLowerCase();
 
+    // Prorrogacao ou penaltis = encerra calculo nos 90min (nao segue ao vivo)
+    var isExtraTime = ["et","extra_time","extra time","extratime","aet",
+                       "pen","penalties","penalty","ap","pso","shootout","pk"
+                      ].indexOf(timeElapsed) !== -1;
+
     var status = "scheduled";
-    if(finishedFlag==="TRUE" || ["finished","ft","completed","full time","fulltime","ended"].indexOf(timeElapsed)!==-1){
+    if(finishedFlag==="TRUE"
+       || ["finished","ft","completed","full time","fulltime","ended"].indexOf(timeElapsed)!==-1
+       || isExtraTime) {
       status = "finished";
     } else if(["1h","2h","ht","live","inprogress","in_progress","in progress","ongoing"].indexOf(timeElapsed)!==-1){
       status = "live";
