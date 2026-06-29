@@ -373,6 +373,15 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 // =====================================================
 var CAMPEAO_OFICIAL = "";
 
+// =====================================================
+// JOGOS EM PRORROGACAO — preencha com o numero do jogo
+// quando ele entrar em prorrogacao ou penaltis.
+// O calculo sera congelado no placar dos 90 minutos.
+// Exemplo: var JOGOS_PRORROGACAO = [75, 82];
+// Limpe a lista apos o jogo encerrar: [];
+// =====================================================
+var JOGOS_PRORROGACAO = [];
+
 var FLAGS = {"BRASIL": "🇧🇷", "ARGENTINA": "🇦🇷", "FRANÇA": "🇫🇷", "ALEMANHA": "🇩🇪", "ESPANHA": "🇪🇸", "PORTUGAL": "🇵🇹", "INGLATERRA": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "HOLANDA": "🇳🇱", "ITÁLIA": "🇮🇹", "BÉLGICA": "🇧🇪", "URUGUAI": "🇺🇾", "CROÁCIA": "🇭🇷", "MARROCOS": "🇲🇦", "SENEGAL": "🇸🇳", "JAPÃO": "🇯🇵", "ESTADOS UNIDOS": "🇺🇸", "MÉXICO": "🇲🇽", "COLÔMBIA": "🇨🇴", "EQUADOR": "🇪🇨", "CHILE": "🇨🇱", "AUSTRÁLIA": "🇦🇺", "COREIA DO SUL": "🇰🇷", "POLÔNIA": "🇵🇱", "SUÍÇA": "🇨🇭", "DINAMARCA": "🇩🇰", "ÁUSTRIA": "🇦🇹", "TURQUIA": "🇹🇷", "COSTA RICA": "🇨🇷", "NIGÉRIA": "🇳🇬", "GANA": "🇬🇭", "CAMARÕES": "🇨🇲", "CANADÁ": "🇨🇦", "ÁFRICA DO SUL": "🇿🇦", "BÓSNIA E HERZEGOVINA": "🇧🇦", "REPÚBLICA TCHECA": "🇨🇿", "CATAR": "🇶🇦", "PARAGUAI": "🇵🇾", "HAITI": "🇭🇹", "ESCÓCIA": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "CURAÇÃO": "🇨🇼", "TUNÍSIA": "🇹🇳", "CABO VERDE": "🇨🇻", "EGITO": "🇪🇬", "IRÃ": "🇮🇷", "NOVA ZELÂNDIA": "🇳🇿", "ARÁBIA SAUDITA": "🇸🇦", "IRAQUE": "🇮🇶", "NORUEGA": "🇳🇴", "ARGÉLIA": "🇩🇿", "JORDÂNIA": "🇯🇴", "RD CONGO": "🇨🇩", "UZBEQUISTÃO": "🇺🇿", "PANAMÁ": "🇵🇦", "SUÉCIA": "🇸🇪", "COSTA DO MARFIM": "🇨🇮"};
 function flag(nome){ return FLAGS[(nome||"").toUpperCase()] || "\u26BD"; }
 
@@ -450,16 +459,6 @@ function parseWorldcup26(list){
     }
     if(!key) return;
 
-    // DEBUG: mostra campos brutos no console para jogos em andamento
-    if(m.time_elapsed || m.status || m.minute || m.elapsed) {
-      console.log('[API RAW]', t1En, 'x', t2En, '| time_elapsed:', m.time_elapsed,
-        '| status:', m.status, '| minute:', m.minute || m.elapsed,
-        '| period:', m.period || m.match_period,
-        '| finished:', m.finished,
-        '| extra_time:', m.extra_time,
-        '| penalties:', m.penalties);
-    }
-
     var rawA = (m.home_score!==undefined?m.home_score:(m.score_home!==undefined?m.score_home:(m.homeScore!==undefined?m.homeScore:null)));
     var rawB = (m.away_score!==undefined?m.away_score:(m.score_away!==undefined?m.score_away:(m.awayScore!==undefined?m.awayScore:null)));
     var sA = (rawA!==null && rawA!=="" && rawA!==undefined) ? parseInt(rawA) : null;
@@ -467,43 +466,31 @@ function parseWorldcup26(list){
 
     var finishedFlag = String(m.finished || "").toUpperCase();
     var timeElapsed = String(m.time_elapsed || m.status || m.match_status || "").toLowerCase();
-    var period = String(m.period || m.match_period || m.stage || "").toLowerCase();
-    var minute = parseInt(m.minute || m.elapsed || 0) || 0;
-
-    // Sinais explícitos de prorrogacao ou penaltis
-    var extraTimeValues = ["et","extra_time","extra time","extratime","aet",
-                           "pen","penalties","penalty","ap","pso","shootout","pk",
-                           "extra","overtime","ot"];
-    var isExtraTime = extraTimeValues.indexOf(timeElapsed) !== -1
-                   || extraTimeValues.indexOf(period) !== -1
-                   || m.extra_time === true || m.extra_time === 1
-                   || m.penalties === true || m.penalties === 1;
-
-    // Se minuto > 90 e jogo em andamento no 2o tempo = acrescimos normais (ate ~97)
-    // Se minuto > 90 e NAO e 2o tempo = prorrogacao iniciada
-    var isSecondHalf = timeElapsed === "2h" || period === "2h" || period === "second half" || period === "second_half";
-    var isLiveSignal = ["1h","2h","ht","live","inprogress","in_progress","in progress","ongoing"].indexOf(timeElapsed) !== -1;
-
-    // Prorrogacao: minuto > 90 mas NAO e sinal de 2o tempo normal
-    var isMinuteExtraTime = minute > 90 && !isSecondHalf && isLiveSignal;
 
     var status = "scheduled";
-    if(finishedFlag==="TRUE"
-       || ["finished","ft","completed","full time","fulltime","ended"].indexOf(timeElapsed) !== -1
-       || isExtraTime
-       || isMinuteExtraTime) {
+    if(finishedFlag==="TRUE" || ["finished","ft","completed","full time","fulltime","ended"].indexOf(timeElapsed)!==-1){
       status = "finished";
-    } else if(isLiveSignal) {
+    } else if(["1h","2h","ht","live","inprogress","in_progress","in progress","ongoing"].indexOf(timeElapsed)!==-1){
       status = "live";
     }
 
-    // Se finalizado por prorrogacao, congela o placar do momento (90')
+    // Se o jogo esta listado em JOGOS_PRORROGACAO, congela como finished
+    var jogoNumero = null;
+    for(var _i=0;_i<TODOS_JOGOS.length;_i++){
+      if(TODOS_JOGOS[_i].fase+"-"+TODOS_JOGOS[_i].jogo===key){
+        jogoNumero = TODOS_JOGOS[_i].jogo; break;
+      }
+    }
+    if(jogoNumero && JOGOS_PRORROGACAO.indexOf(jogoNumero)!==-1 && status==="live"){
+      status = "finished";
+    }
+
     realResults[key] = {
       scoreA: (status==="finished"||status==="live") ? sA : null,
       scoreB: (status==="finished"||status==="live") ? sB : null,
       status: status,
       timeElapsed: m.time_elapsed || "",
-      minute: minute
+      minute: m.minute || m.elapsed || null
     };
   });
 }
