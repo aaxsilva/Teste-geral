@@ -724,7 +724,7 @@ function montarRanking(excluirJogoKey){
     if(!dados || !dados.participantes) return;
     dados.participantes.forEach(function(pm){
       if(pm.campeao) campeoes[pm.participante] = pm.campeao;
-      if(pm.arquivo) arquivos[pm.participante] = pm.arquivo;
+      if(!arquivos[pm.participante]) arquivos[pm.participante] = normalizaArquivo(pm.participante);
     });
   });
 
@@ -736,7 +736,7 @@ function montarRanking(excluirJogoKey){
       var nome = pp.participante;
       if(!pontos[nome]) pontos[nome] = {porFase:{}, total:0, exatos:0, certos:0, erros:0, livePts:0, campeaoPts:0};
       if(!pontos[nome].porFase[j.fase]) pontos[nome].porFase[j.fase]=0;
-      if(!arquivos[nome]) arquivos[nome] = pp.arquivo || normalizaArquivo(nome);
+      if(!arquivos[nome]) arquivos[nome] = normalizaArquivo(nome);
       if(!campeoes[nome] && pp.campeao) campeoes[nome] = pp.campeao;
 
       if(j.status==="finished"){
@@ -929,7 +929,7 @@ function renderFase(fk){
         }
         var tagClass = pts===5 ? "acerto" : (pts===3 ? "acerto3" : "");
         var tagTxt = temResultado(j) ? ("+"+pts+" pts") : "aguardando";
-        var arquivo = pp.arquivo || normalizaArquivo(pp.participante);
+        var arquivo = normalizaArquivo(pp.participante);
         plist += "<div class='prow-p'>";
         plist += imgTag(arquivo, pp.participante, "pp-foto", "pp-foto-fb");
         plist += "<div class='pp-nome'>"+pp.participante+"</div>";
