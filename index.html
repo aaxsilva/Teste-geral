@@ -665,10 +665,10 @@ var PARTICIPANTES = {};    // nome -> {arquivo foto}
 var RANKING = [];
 
 function normalizaArquivo(nome){
-  // Remove acentos, pega só a primeira palavra, capitaliza a primeira letra
+  // Remove acentos, pega só a primeira palavra, tudo minúsculo
   var s = nome.split(" ")[0];
   s = s.normalize("NFD").replace(/[\u0300-\u036f]/g,""); // remove acentos
-  return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+  return s.toLowerCase();
 }
 
 function imgTag(arquivo, nome, cls, clsfb){
