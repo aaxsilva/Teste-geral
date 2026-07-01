@@ -1,0 +1,4631 @@
+{
+  "fase": "oitavas",
+  "label": "Oitavas de Final",
+  "participantes": [
+    {
+      "participante": "Adriano",
+      "arquivo": "Adriano",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Bumblebee",
+      "arquivo": "Bumblebee",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Gandalf",
+      "arquivo": "Gandalf",
+      "campeao": "França"
+    },
+    {
+      "participante": "Adriano 2",
+      "arquivo": "Adriano_2",
+      "campeao": "Espanha"
+    },
+    {
+      "participante": "Amiguinho",
+      "arquivo": "amiguinho",
+      "campeao": "França"
+    },
+    {
+      "participante": "Buqui",
+      "arquivo": "buqui",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Dudinha",
+      "arquivo": "dudinha",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Elvis",
+      "arquivo": "elvis",
+      "campeao": "França"
+    },
+    {
+      "participante": "Edilaine 1",
+      "arquivo": "edilaine_1",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Edilaine 2",
+      "arquivo": "edilaine_2",
+      "campeao": "França"
+    },
+    {
+      "participante": "Emi",
+      "arquivo": "emi",
+      "campeao": "Alemanha"
+    },
+    {
+      "participante": "Fernanda",
+      "arquivo": "fernanda",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Francisco",
+      "arquivo": "francisco",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Fátima",
+      "arquivo": "fatima",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Gargamel",
+      "arquivo": "gargamel",
+      "campeao": "Colômbia"
+    },
+    {
+      "participante": "GU",
+      "arquivo": "gu",
+      "campeao": "França"
+    },
+    {
+      "participante": "Gabriel",
+      "arquivo": "gabriel",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "José 1",
+      "arquivo": "jose_1",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "José 2",
+      "arquivo": "jose_2",
+      "campeao": "Holanda"
+    },
+    {
+      "participante": "José 3",
+      "arquivo": "jose_3",
+      "campeao": "França"
+    },
+    {
+      "participante": "Louise",
+      "arquivo": "louise",
+      "campeao": "França"
+    },
+    {
+      "participante": "Manuela",
+      "arquivo": "manuela",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Maria 1",
+      "arquivo": "maria_1",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Maria 2",
+      "arquivo": "maria_2",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Maria 3",
+      "arquivo": "maria_3",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Marta 1",
+      "arquivo": "marta_1",
+      "campeao": "França"
+    },
+    {
+      "participante": "Marta 2",
+      "arquivo": "marta_2",
+      "campeao": "França"
+    },
+    {
+      "participante": "Marta 3",
+      "arquivo": "marta_3",
+      "campeao": "França"
+    },
+    {
+      "participante": "Marta 4",
+      "arquivo": "marta_4",
+      "campeao": "França"
+    },
+    {
+      "participante": "Marta 5",
+      "arquivo": "marta_5",
+      "campeao": "França"
+    },
+    {
+      "participante": "Mateo",
+      "arquivo": "mateo",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Micha",
+      "arquivo": "micha",
+      "campeao": "Portugal"
+    },
+    {
+      "participante": "Nina",
+      "arquivo": "nina",
+      "campeao": "França"
+    },
+    {
+      "participante": "Nacho",
+      "arquivo": "nacho",
+      "campeao": "Alemanha"
+    },
+    {
+      "participante": "Pablo 1",
+      "arquivo": "pablo_1",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Pablo 2",
+      "arquivo": "pablo_2",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Papuchito",
+      "arquivo": "papuchito",
+      "campeao": "França"
+    },
+    {
+      "participante": "Pipica",
+      "arquivo": "pipica",
+      "campeao": "Noruega"
+    },
+    {
+      "participante": "Vagner",
+      "arquivo": "vagner",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Edney",
+      "arquivo": "edney",
+      "campeao": "Holanda"
+    },
+    {
+      "participante": "Rosana",
+      "arquivo": "rosana",
+      "campeao": "França"
+    },
+    {
+      "participante": "Danilo",
+      "arquivo": "danilo",
+      "campeao": "França"
+    },
+    {
+      "participante": "Victor",
+      "arquivo": "victor",
+      "campeao": "França"
+    },
+    {
+      "participante": "César",
+      "arquivo": "cesar",
+      "campeao": "França"
+    },
+    {
+      "participante": "Firulais",
+      "arquivo": "firulais",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Gregorio",
+      "arquivo": "gregorio",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Ligia",
+      "arquivo": "ligia",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Lucas",
+      "arquivo": "lucas",
+      "campeao": "França"
+    },
+    {
+      "participante": "Luciano",
+      "arquivo": "luciano",
+      "campeao": "França"
+    },
+    {
+      "participante": "Nono 1",
+      "arquivo": "nono_1",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Nono 2",
+      "arquivo": "nono_2",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Nono 3",
+      "arquivo": "nono_3",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Régis",
+      "arquivo": "regis",
+      "campeao": "Argentina"
+    },
+    {
+      "participante": "Régis-IA",
+      "arquivo": "regis-ia",
+      "campeao": "França"
+    },
+    {
+      "participante": "Sofia",
+      "arquivo": "sofia",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Zilda 1",
+      "arquivo": "zilda_1",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Zilda 2",
+      "arquivo": "zilda_2",
+      "campeao": "Brasil"
+    },
+    {
+      "participante": "Lucca",
+      "arquivo": "lucca",
+      "campeao": "França"
+    },
+    {
+      "participante": "Toninho",
+      "arquivo": "toninho",
+      "campeao": "Brasil"
+    }
+  ],
+  "jogos": [
+    {
+      "jogo": 89,
+      "timeA": "Brasil",
+      "golsA": 2,
+      "timeB": "Senegal",
+      "golsB": 0,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 1,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 2,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 3
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 1
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 0
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Brasil",
+          "golsA": 0,
+          "timeB": "Senegal",
+          "golsB": 2
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Brasil",
+          "golsA": 3,
+          "timeB": "Senegal",
+          "golsB": 1
+        }
+      ],
+      "data": "2026-07-05"
+    },
+    {
+      "jogo": 90,
+      "timeA": "França",
+      "golsA": 1,
+      "timeB": "Espanha",
+      "golsB": 1,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 3
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 2
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 0,
+          "timeB": "Espanha",
+          "golsB": 0
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 1,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Espanha",
+          "golsB": 1
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "França",
+          "golsA": 3,
+          "timeB": "Espanha",
+          "golsB": 1
+        }
+      ],
+      "data": "2026-07-05"
+    },
+    {
+      "jogo": 91,
+      "timeA": "Alemanha",
+      "golsA": 0,
+      "timeB": "Portugal",
+      "golsB": 2,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 0,
+          "timeB": "Portugal",
+          "golsB": 2
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 0
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 2,
+          "timeB": "Portugal",
+          "golsB": 3
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Alemanha",
+          "golsA": 1,
+          "timeB": "Portugal",
+          "golsB": 1
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Alemanha",
+          "golsA": 3,
+          "timeB": "Portugal",
+          "golsB": 0
+        }
+      ],
+      "data": "2026-07-06"
+    },
+    {
+      "jogo": 92,
+      "timeA": "Holanda",
+      "golsA": 3,
+      "timeB": "México",
+      "golsB": 1,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 2,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 0,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 1,
+          "timeB": "México",
+          "golsB": 0
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 2
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 3
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Holanda",
+          "golsA": 3,
+          "timeB": "México",
+          "golsB": 1
+        }
+      ],
+      "data": "2026-07-06"
+    },
+    {
+      "jogo": 93,
+      "timeA": "Argélia",
+      "golsA": 1,
+      "timeB": "Costa do Marfim",
+      "golsB": 0,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 1,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 1
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 2
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 0,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Argélia",
+          "golsA": 2,
+          "timeB": "Costa do Marfim",
+          "golsB": 0
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Argélia",
+          "golsA": 3,
+          "timeB": "Costa do Marfim",
+          "golsB": 3
+        }
+      ],
+      "data": "2026-07-07"
+    },
+    {
+      "jogo": 94,
+      "timeA": "Estados Unidos",
+      "golsA": 2,
+      "timeB": "Inglaterra",
+      "golsB": 1,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Estados Unidos",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 1,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Estados Unidos",
+          "golsA": 3,
+          "timeB": "Inglaterra",
+          "golsB": 2
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Estados Unidos",
+          "golsA": 0,
+          "timeB": "Inglaterra",
+          "golsB": 0
+        }
+      ],
+      "data": "2026-07-07"
+    },
+    {
+      "jogo": 95,
+      "timeA": "Austrália",
+      "golsA": 0,
+      "timeB": "Colômbia",
+      "golsB": 1,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 0,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 0
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 1,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 2,
+          "timeB": "Colômbia",
+          "golsB": 2
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 3
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 1
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Austrália",
+          "golsA": 3,
+          "timeB": "Colômbia",
+          "golsB": 1
+        }
+      ],
+      "data": "2026-07-08"
+    },
+    {
+      "jogo": 96,
+      "timeA": "Cabo Verde",
+      "golsA": 2,
+      "timeB": "África do Sul",
+      "golsB": 3,
+      "palpites": [
+        {
+          "participante": "Adriano",
+          "arquivo": "Adriano",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Bumblebee",
+          "arquivo": "Bumblebee",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Gandalf",
+          "arquivo": "Gandalf",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Adriano 2",
+          "arquivo": "Adriano_2",
+          "campeao": "Espanha",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Amiguinho",
+          "arquivo": "amiguinho",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Buqui",
+          "arquivo": "buqui",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Dudinha",
+          "arquivo": "dudinha",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Elvis",
+          "arquivo": "elvis",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Edilaine 1",
+          "arquivo": "edilaine_1",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Edilaine 2",
+          "arquivo": "edilaine_2",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Emi",
+          "arquivo": "emi",
+          "campeao": "Alemanha",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Fernanda",
+          "arquivo": "fernanda",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Francisco",
+          "arquivo": "francisco",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Fátima",
+          "arquivo": "fatima",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Gargamel",
+          "arquivo": "gargamel",
+          "campeao": "Colômbia",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "GU",
+          "arquivo": "gu",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Gabriel",
+          "arquivo": "gabriel",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "José 1",
+          "arquivo": "jose_1",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "José 2",
+          "arquivo": "jose_2",
+          "campeao": "Holanda",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "José 3",
+          "arquivo": "jose_3",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Louise",
+          "arquivo": "louise",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Manuela",
+          "arquivo": "manuela",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Maria 1",
+          "arquivo": "maria_1",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Maria 2",
+          "arquivo": "maria_2",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Maria 3",
+          "arquivo": "maria_3",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 1",
+          "arquivo": "marta_1",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Marta 2",
+          "arquivo": "marta_2",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Marta 3",
+          "arquivo": "marta_3",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 4",
+          "arquivo": "marta_4",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Marta 5",
+          "arquivo": "marta_5",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Mateo",
+          "arquivo": "mateo",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Micha",
+          "arquivo": "micha",
+          "campeao": "Portugal",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Nina",
+          "arquivo": "nina",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Nacho",
+          "arquivo": "nacho",
+          "campeao": "Alemanha",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Pablo 1",
+          "arquivo": "pablo_1",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Pablo 2",
+          "arquivo": "pablo_2",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Papuchito",
+          "arquivo": "papuchito",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Pipica",
+          "arquivo": "pipica",
+          "campeao": "Noruega",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Vagner",
+          "arquivo": "vagner",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Edney",
+          "arquivo": "edney",
+          "campeao": "Holanda",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Rosana",
+          "arquivo": "rosana",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Danilo",
+          "arquivo": "danilo",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Victor",
+          "arquivo": "victor",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "César",
+          "arquivo": "cesar",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Firulais",
+          "arquivo": "firulais",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Gregorio",
+          "arquivo": "gregorio",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Ligia",
+          "arquivo": "ligia",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 1,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Lucas",
+          "arquivo": "lucas",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Luciano",
+          "arquivo": "luciano",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Nono 1",
+          "arquivo": "nono_1",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Nono 2",
+          "arquivo": "nono_2",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Nono 3",
+          "arquivo": "nono_3",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Régis",
+          "arquivo": "regis",
+          "campeao": "Argentina",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 1
+        },
+        {
+          "participante": "Régis-IA",
+          "arquivo": "regis-ia",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 3,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Sofia",
+          "arquivo": "sofia",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 2
+        },
+        {
+          "participante": "Zilda 1",
+          "arquivo": "zilda_1",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Zilda 2",
+          "arquivo": "zilda_2",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 0
+        },
+        {
+          "participante": "Lucca",
+          "arquivo": "lucca",
+          "campeao": "França",
+          "timeA": "Cabo Verde",
+          "golsA": 0,
+          "timeB": "África do Sul",
+          "golsB": 3
+        },
+        {
+          "participante": "Toninho",
+          "arquivo": "toninho",
+          "campeao": "Brasil",
+          "timeA": "Cabo Verde",
+          "golsA": 2,
+          "timeB": "África do Sul",
+          "golsB": 1
+        }
+      ],
+      "data": "2026-07-08"
+    }
+  ]
+}
