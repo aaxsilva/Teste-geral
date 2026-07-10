@@ -96,15 +96,7 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 .tv-watch-sub{font-size:13px;color:var(--sv);margin-top:4px;margin-bottom:20px;}
 .tv-watch-btn{display:inline-flex;align-items:center;gap:10px;background:#ff0000;color:#fff;text-decoration:none;font-family:'Oswald',sans-serif;font-weight:600;font-size:15px;letter-spacing:.5px;padding:14px 26px;border-radius:10px;box-shadow:0 4px 16px rgba(255,0,0,.35);transition:transform .15s;}
 .tv-watch-btn:active{transform:scale(.97);}
-
-.tv-next-card{margin-top:18px;background:var(--cd);border:1px solid var(--bd);border-radius:14px;padding:18px;}
-.tv-next-lbl{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--am);margin-bottom:10px;}
-.tv-next-row{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;}
-.tv-next-team{display:flex;align-items:center;gap:8px;font-family:'Oswald',sans-serif;font-size:16px;font-weight:600;color:#fff;}
-.tv-next-team .fl{font-size:24px;margin-bottom:0;}
-.tv-next-vs{font-size:11px;color:var(--sv);font-family:'Oswald',sans-serif;text-transform:uppercase;}
-.tv-next-meta{font-size:13px;color:var(--sv);margin-top:10px;text-align:center;font-family:'Oswald',sans-serif;letter-spacing:.5px;}
-@media(max-width:480px){.tv-watch-card{padding:26px 16px;}.tv-watch-title{font-size:19px;}.tv-next-team{font-size:14px;}.tv-next-team .fl{font-size:19px;}}
+@media(max-width:480px){.tv-watch-card{padding:26px 16px;}.tv-watch-title{font-size:19px;}}
 
 
 /* EXTRA - novas abas */
@@ -362,8 +354,6 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
       &#x25B6; Assistir Ao Vivo no YouTube
     </a>
   </div>
-
-  <div id="tv-frame-wrap" class="tv-next-card"></div>
 </div>
 
 <div id="pg-regras" class="tc">
@@ -701,7 +691,6 @@ function atualizarTudoComAPI(){
     renderDia();
     renderJogoMomento();
     renderApostas();
-    renderTV();
     agendarProximaAtualizacao();
     return ok;
   });
@@ -1414,52 +1403,6 @@ function atualizarBotao(){
   });
 }
 
-// ---------- TV AO VIVO ----------
-function extrairVideoId(valor){
-  if(!valor) return "";
-  valor = valor.trim();
-  if(!valor) return "";
-  // Ja e um ID puro (11 caracteres alfanumericos/traco/underline, sem "/" ou ".")
-  if(/^[a-zA-Z0-9_-]{6,20}$/.test(valor) && valor.indexOf("/")===-1 && valor.indexOf(".")===-1) return valor;
-  // Tenta extrair de URLs comuns do YouTube
-  var m = valor.match(/[?&]v=([a-zA-Z0-9_-]+)/);
-  if(m) return m[1];
-  m = valor.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
-  if(m) return m[1];
-  m = valor.match(/youtube\.com\/(?:live|embed|shorts)\/([a-zA-Z0-9_-]+)/);
-  if(m) return m[1];
-  return valor;
-}
-function proximoJogo(){
-  var lista = todosOsJogosCarregados().filter(function(j){
-    return j.data && statusJogo(j)==="scheduled";
-  });
-  lista.sort(function(a,b){
-    var da = a.data+" "+(a.hora||"00:00");
-    var db = b.data+" "+(b.hora||"00:00");
-    return da.localeCompare(db);
-  });
-  return lista.length ? lista[0] : null;
-}
-function tvOverlayHTML(){
-  var prox = proximoJogo();
-  if(!prox){
-    return "<div class='tv-next-lbl'>&#x1F4C5; Agenda</div><div class='tv-next-meta'>Nenhum pr&oacute;ximo jogo agendado no momento.</div>";
-  }
-  return "<div class='tv-next-lbl'>&#x1F4C5; Pr&oacute;ximo Jogo</div>"
-    + "<div class='tv-next-row'>"
-    + "<span class='tv-next-team'><span class='fl'>"+flag(prox.timeA)+"</span>"+cap(prox.timeA)+"</span>"
-    + "<span class='tv-next-vs'>vs</span>"
-    + "<span class='tv-next-team'><span class='fl'>"+flag(prox.timeB)+"</span>"+cap(prox.timeB)+"</span>"
-    + "</div>"
-    + "<div class='tv-next-meta'>"+formatarDataBr(prox.data)+" &middot; "+(prox.hora||"--:--")+"</div>";
-}
-function renderTV(){
-  var wrap = document.getElementById("tv-frame-wrap");
-  if(!wrap) return;
-  wrap.innerHTML = tvOverlayHTML();
-}
-
 // ---------- NAV ----------
 var pgMap={inicio:"pg-inicio",ranking:"pg-ranking",jogos:"pg-jogos",dia:"pg-dia",momento:"pg-momento",apostas:"pg-apostas",tv:"pg-tv",regras:"pg-regras"};
 function ir(id,btn){
@@ -1499,7 +1442,6 @@ carregarFases(function(){
   renderDia();
   renderJogoMomento();
   renderApostas();
-  renderTV();
 
   // Depois de carregar os JSONs estaticos, busca os resultados reais na API
   setStatusLoading();
