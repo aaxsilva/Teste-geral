@@ -92,6 +92,14 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 .tv-frame{position:relative;width:100%;padding-top:56.25%;background:#000;border-radius:12px;overflow:hidden;border:1px solid var(--bd);box-shadow:0 6px 24px rgba(0,0,0,.5);}
 .tv-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
 .tv-links{display:flex;justify-content:center;margin-top:16px;}
+.tv-next-overlay{position:absolute;left:0;right:0;bottom:0;z-index:2;pointer-events:none;background:linear-gradient(0deg,rgba(0,0,0,.9) 0%,rgba(0,0,0,.6) 55%,rgba(0,0,0,0) 100%);padding:18px 18px 14px;}
+.tv-next-lbl{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--am);margin-bottom:8px;}
+.tv-next-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.tv-next-team{display:flex;align-items:center;gap:7px;font-family:'Oswald',sans-serif;font-size:15px;font-weight:600;color:#fff;}
+.tv-next-team .fl{font-size:22px;margin-bottom:0;}
+.tv-next-vs{font-size:11px;color:rgba(255,255,255,.55);font-family:'Oswald',sans-serif;text-transform:uppercase;}
+.tv-next-meta{font-size:12.5px;color:rgba(255,255,255,.75);margin-top:6px;font-family:'Oswald',sans-serif;letter-spacing:.5px;}
+@media(max-width:480px){.tv-next-team{font-size:13px;}.tv-next-team .fl{font-size:18px;}.tv-next-overlay{padding:12px 14px 10px;}}
 
 /* EXTRA - novas abas */
 .pod-wrap{display:flex;flex-direction:column;align-items:center;gap:14px;margin-bottom:24px;}
@@ -429,7 +437,7 @@ var PLACARES_MANUAIS = { 81: [2, 2], 86: [1, 1], 87: [1, 1], 96: [0, 0] };
 // atual do canal CazeTV, se houver uma no ar):
 //   var TV_VIDEO_ID = "";
 // =====================================================
-var TV_VIDEO_ID = "WP7qXzta_a0";
+var TV_VIDEO_ID = "";
 var TV_CHANNEL_ID = "UCZiYbVptd3PVPf4f6eR6UaQ"; // ID do canal CazeTV (fallback automatico)
 
 
@@ -656,6 +664,7 @@ function atualizarTudoComAPI(){
     renderDia();
     renderJogoMomento();
     renderApostas();
+    renderTV();
     agendarProximaAtualizacao();
     return ok;
   });
@@ -1383,6 +1392,32 @@ function extrairVideoId(valor){
   if(m) return m[1];
   return valor;
 }
+function proximoJogo(){
+  var lista = todosOsJogosCarregados().filter(function(j){
+    return j.data && statusJogo(j)==="scheduled";
+  });
+  lista.sort(function(a,b){
+    var da = a.data+" "+(a.hora||"00:00");
+    var db = b.data+" "+(b.hora||"00:00");
+    return da.localeCompare(db);
+  });
+  return lista.length ? lista[0] : null;
+}
+function tvOverlayHTML(){
+  var prox = proximoJogo();
+  if(!prox){
+    return "<div class='tv-next-overlay'><div class='tv-next-lbl'>&#x1F4C5; Agenda</div><div class='tv-next-meta'>Nenhum pr&oacute;ximo jogo agendado no momento.</div></div>";
+  }
+  return "<div class='tv-next-overlay'>"
+    + "<div class='tv-next-lbl'>&#x1F4C5; Pr&oacute;ximo Jogo</div>"
+    + "<div class='tv-next-row'>"
+    + "<span class='tv-next-team'><span class='fl'>"+flag(prox.timeA)+"</span>"+cap(prox.timeA)+"</span>"
+    + "<span class='tv-next-vs'>vs</span>"
+    + "<span class='tv-next-team'><span class='fl'>"+flag(prox.timeB)+"</span>"+cap(prox.timeB)+"</span>"
+    + "</div>"
+    + "<div class='tv-next-meta'>"+formatarDataBr(prox.data)+" &middot; "+(prox.hora||"--:--")+"</div>"
+    + "</div>";
+}
 function renderTV(){
   var wrap = document.getElementById("tv-frame-wrap");
   if(!wrap) return;
@@ -1393,7 +1428,7 @@ function renderTV(){
   } else {
     src = "https://www.youtube.com/embed/live_stream?channel="+TV_CHANNEL_ID+"&autoplay=0";
   }
-  wrap.innerHTML = '<iframe src="'+src+'" title="CazeTV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+  wrap.innerHTML = '<iframe src="'+src+'" title="CazeTV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>' + tvOverlayHTML();
 }
 
 // ---------- NAV ----------
