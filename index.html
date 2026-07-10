@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bol&atilde;o Copa 2026</title>
 <style>
@@ -1455,7 +1456,7 @@ function renderTV(){
   } else {
     src = "https://www.youtube.com/embed/live_stream?channel="+TV_CHANNEL_ID+"&autoplay=0";
   }
-  wrap.innerHTML = '<iframe src="'+src+'" title="CazeTV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>' + tvOverlayHTML();
+  wrap.innerHTML = '<iframe src="'+src+'" title="CazeTV" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>' + tvOverlayHTML();
 }
 
 // ---------- NAV ----------
