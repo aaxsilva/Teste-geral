@@ -572,6 +572,13 @@ function findGameIdLoose(teamA, teamB){
   return null;
 }
 
+function kickoffDate(data, hora){
+  // Assume que data ("YYYY-MM-DD") e hora ("HH:MM") estao no horario de Brasilia (UTC-3, sem horario de verao)
+  if(!data || !hora) return null;
+  var dt = new Date(data+"T"+hora+":00-03:00");
+  return isNaN(dt.getTime()) ? null : dt;
+}
+
 function aplicarResultadosReais(){
   // Para cada jogo carregado, se houver resultado real correspondente, sobrescreve
   // golsA/golsB/status SOMENTE em memoria (nao altera os arquivos JSON originais)
@@ -587,6 +594,16 @@ function aplicarResultadosReais(){
       g.status = r.status;
       g.timeElapsed = r.timeElapsed;
       g.minute = r.minute;
+    }
+    // Trava de seguranca: nunca aceita "ao vivo" antes do horario agendado (evita
+    // problema de fuso/atraso da API externa marcando o jogo como live cedo demais)
+    if(g.status==="live"){
+      var koG = kickoffDate(g.data, g.hora);
+      if(koG && new Date() < koG){
+        g.status = "scheduled";
+        g.golsA = null;
+        g.golsB = null;
+      }
     }
     // Placar manual tem prioridade maxima
     if(PLACARES_MANUAIS[g.jogo] !== undefined){
@@ -612,6 +629,15 @@ function aplicarResultadosReais(){
         j.golsA = null;
         j.golsB = null;
         j.status = j.status==="live" ? "live" : "scheduled";
+      }
+      // Trava de seguranca: nunca aceita "ao vivo" antes do horario agendado
+      if(j.status==="live"){
+        var koJ = kickoffDate(j.data, j.hora);
+        if(koJ && new Date() < koJ){
+          j.status = "scheduled";
+          j.golsA = null;
+          j.golsB = null;
+        }
       }
       // Placar manual tem prioridade maxima sobre API
       if(PLACARES_MANUAIS[j.jogo] !== undefined){
@@ -761,7 +787,8 @@ function montarTodosJogos(){
         golsB: j.golsB,
         status: statusJogo(j),
         timeA: j.timeA, timeB: j.timeB,
-        palpites: j.palpites
+        palpites: j.palpites,
+        data: j.data, hora: j.hora
       });
     });
   });
