@@ -2,7 +2,6 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bol&atilde;o Copa 2026</title>
 <style>
@@ -89,15 +88,6 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
 .mn button .ic{font-size:16px;}
 .mn button.av{color:var(--am);background:rgba(255,215,0,.08);}
 @media(max-width:640px){nav.dn{display:none;}.mn{display:flex;}main{padding-bottom:72px;}}
-
-.tv-watch-card{background:linear-gradient(160deg,#1a0d0d,#120808);border:1px solid rgba(255,60,50,.25);border-radius:16px;padding:32px 20px;text-align:center;box-shadow:0 6px 24px rgba(0,0,0,.5);}
-.tv-watch-icon{font-size:40px;margin-bottom:10px;}
-.tv-watch-title{font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:#fff;letter-spacing:.5px;}
-.tv-watch-sub{font-size:13px;color:var(--sv);margin-top:4px;margin-bottom:20px;}
-.tv-watch-btn{display:inline-flex;align-items:center;gap:10px;background:#ff0000;color:#fff;text-decoration:none;font-family:'Oswald',sans-serif;font-weight:600;font-size:15px;letter-spacing:.5px;padding:14px 26px;border-radius:10px;box-shadow:0 4px 16px rgba(255,0,0,.35);transition:transform .15s;}
-.tv-watch-btn:active{transform:scale(.97);}
-@media(max-width:480px){.tv-watch-card{padding:26px 16px;}.tv-watch-title{font-size:19px;}}
-
 
 /* EXTRA - novas abas */
 .pod-wrap{display:flex;flex-direction:column;align-items:center;gap:14px;margin-bottom:24px;}
@@ -250,7 +240,6 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
       <button onclick="ir('dia',this)">Jogos do Dia</button>
       <button onclick="ir('momento',this)">Jogo do Momento</button>
       <button onclick="ir('apostas',this)">Apostas</button>
-      <button onclick="ir('tv',this)">TV Ao Vivo</button>
       <button onclick="ir('regras',this)">Regras</button>
     </nav>
   </div>
@@ -272,7 +261,6 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
     <div class="qcard" onclick="ir('jogos')"><div class="qico">&#x26BD;</div><div class="qlbl">Ver Jogos</div></div>
     <div class="qcard" onclick="ir('ranking')"><div class="qico">&#x1F4CA;</div><div class="qlbl">Ranking Completo</div></div>
     <div class="qcard" onclick="ir('apostas')"><div class="qico">&#x1F4CB;</div><div class="qlbl">Apostas</div></div>
-    <div class="qcard" onclick="ir('tv')"><div class="qico">&#x1F4FA;</div><div class="qlbl">TV Ao Vivo</div></div>
     <div class="qcard" onclick="ir('regras')"><div class="qico">&#x1F4DC;</div><div class="qlbl">Regras</div></div>
   </div>
 </div>
@@ -339,23 +327,6 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
   <div id="apostas-cont"></div>
 </div>
 
-<div id="pg-tv" class="tc">
-  <div class="pt">
-    <div class="pt-i" style="background:linear-gradient(135deg,#c4302b,#ff0000)">&#x1F4FA;</div>
-    <h2>TV Ao Vivo</h2>
-  </div>
-  <div class="av-box">A <strong>Caz&eacute;TV</strong> n&atilde;o permite incorporar (embed) sua transmiss&atilde;o em outros sites. Assista direto pelo YouTube usando o bot&atilde;o abaixo &mdash; o link j&aacute; abre o canal e mostra a live automaticamente quando houver jogo.</div>
-
-  <div class="tv-watch-card">
-    <div class="tv-watch-icon">&#x1F534;</div>
-    <div class="tv-watch-title">Caz&eacute;TV ao vivo</div>
-    <div class="tv-watch-sub">Transmiss&atilde;o oficial no YouTube</div>
-    <a href="https://m.youtube.com/cazetv" target="_blank" rel="noopener noreferrer" class="tv-watch-btn">
-      &#x25B6; Assistir Ao Vivo no YouTube
-    </a>
-  </div>
-</div>
-
 <div id="pg-regras" class="tc">
   <div class="pt">
     <div class="pt-i" style="background:linear-gradient(135deg,#5D4037,#8D6E63)">&#x1F4DC;</div>
@@ -391,7 +362,6 @@ main{max-width:1100px;margin:0 auto;padding:24px 20px;}
   <button onclick="ir('dia',this)"><span class="ic">&#x1F4C5;</span>Dia</button>
   <button onclick="ir('momento',this)"><span class="ic">&#x1F7E3;</span>Momento</button>
   <button onclick="ir('apostas',this)"><span class="ic">&#x1F4CB;</span>Apostas</button>
-  <button onclick="ir('tv',this)"><span class="ic">&#x1F4FA;</span>TV Ao Vivo</button>
   <button onclick="ir('regras',this)"><span class="ic">&#x1F4DC;</span>Regras</button>
 </nav>
 
@@ -421,26 +391,30 @@ var CAMPEAO_OFICIAL = "";
 // Deixe vazio quando nao houver correcao necessaria:
 //   var PLACARES_MANUAIS = {};
 // =====================================================
-var PLACARES_MANUAIS = { 81: [2, 2], 86: [1, 1], 87: [1, 1], 96: [0, 0] };
+var PLACARES_MANUAIS = { 81: [2, 2], 86: [1, 1], 87: [1, 1], 96: [0, 0], 99: [1, 1] };
 
 // =====================================================
-// TV AO VIVO - controla o video exibido na aba "TV Ao Vivo".
-// Cole aqui o ID (ou a URL completa) do video/live da CazeTV
-// no YouTube. O player vai mostrar SEMPRE esse video (ao vivo
-// ou ja encerrado) ate voce trocar o valor para o proximo jogo.
+// AO VIVO MANUAL (fallback) — use SOMENTE quando a API externa
+// estiver com falha/atraso e nao reportar um jogo como "ao vivo"
+// mesmo ele ja tendo comecado de verdade.
 //
-// Aceita tanto o ID puro quanto a URL completa, por exemplo:
-//   var TV_VIDEO_ID = "dQw4w9WgXcQ";
-//   var TV_VIDEO_ID = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-//   var TV_VIDEO_ID = "https://youtu.be/dQw4w9WgXcQ";
+// Diferente do PLACARES_MANUAIS (que marca o jogo como ENCERRADO
+// e tem prioridade maxima), este aqui marca o jogo como AO VIVO
+// e o ranking/parciais continuam calculando normalmente com esse
+// placar. Assim que a API voltar a reportar o jogo corretamente
+// (ao vivo ou encerrado), o valor daqui e ignorado automaticamente
+// — nao precisa remover na mao.
 //
-// Deixe vazio ("") para usar o modo automatico (mostra a live
-// atual do canal CazeTV, se houver uma no ar):
-//   var TV_VIDEO_ID = "";
+// Informe o numero do jogo e o placar atual (parcial):
+//   var AO_VIVO_MANUAL = { 100: [1, 0] };
+//
+// Multiplos jogos:
+//   var AO_VIVO_MANUAL = { 100: [1, 0], 101: [0, 0] };
+//
+// Deixe vazio quando nao houver falha da API:
+//   var AO_VIVO_MANUAL = {};
 // =====================================================
-var TV_VIDEO_ID = "";
-var TV_CHANNEL_ID = "UCZiYbVptd3PVPf4f6eR6UaQ"; // ID do canal CazeTV (fallback automatico)
-
+var AO_VIVO_MANUAL = { 100: [1, 0] };
 
 var FLAGS = {"BRASIL": "🇧🇷", "ARGENTINA": "🇦🇷", "FRANÇA": "🇫🇷", "ALEMANHA": "🇩🇪", "ESPANHA": "🇪🇸", "PORTUGAL": "🇵🇹", "INGLATERRA": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "HOLANDA": "🇳🇱", "ITÁLIA": "🇮🇹", "BÉLGICA": "🇧🇪", "URUGUAI": "🇺🇾", "CROÁCIA": "🇭🇷", "MARROCOS": "🇲🇦", "SENEGAL": "🇸🇳", "JAPÃO": "🇯🇵", "ESTADOS UNIDOS": "🇺🇸", "MÉXICO": "🇲🇽", "COLÔMBIA": "🇨🇴", "EQUADOR": "🇪🇨", "CHILE": "🇨🇱", "AUSTRÁLIA": "🇦🇺", "COREIA DO SUL": "🇰🇷", "POLÔNIA": "🇵🇱", "SUÍÇA": "🇨🇭", "DINAMARCA": "🇩🇰", "ÁUSTRIA": "🇦🇹", "TURQUIA": "🇹🇷", "COSTA RICA": "🇨🇷", "NIGÉRIA": "🇳🇬", "GANA": "🇬🇭", "CAMARÕES": "🇨🇲", "CANADÁ": "🇨🇦", "ÁFRICA DO SUL": "🇿🇦", "BÓSNIA E HERZEGOVINA": "🇧🇦", "REPÚBLICA TCHECA": "🇨🇿", "CATAR": "🇶🇦", "PARAGUAI": "🇵🇾", "HAITI": "🇭🇹", "ESCÓCIA": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "CURAÇÃO": "🇨🇼", "TUNÍSIA": "🇹🇳", "CABO VERDE": "🇨🇻", "EGITO": "🇪🇬", "IRÃ": "🇮🇷", "NOVA ZELÂNDIA": "🇳🇿", "ARÁBIA SAUDITA": "🇸🇦", "IRAQUE": "🇮🇶", "NORUEGA": "🇳🇴", "ARGÉLIA": "🇩🇿", "JORDÂNIA": "🇯🇴", "RD CONGO": "🇨🇩", "UZBEQUISTÃO": "🇺🇿", "PANAMÁ": "🇵🇦", "SUÉCIA": "🇸🇪", "COSTA DO MARFIM": "🇨🇮"};
 function flag(nome){ return FLAGS[(nome||"").toUpperCase()] || "\u26BD"; }
@@ -573,13 +547,6 @@ function findGameIdLoose(teamA, teamB){
   return null;
 }
 
-function kickoffDate(data, hora){
-  // Assume que data ("YYYY-MM-DD") e hora ("HH:MM") estao no horario de Brasilia (UTC-3, sem horario de verao)
-  if(!data || !hora) return null;
-  var dt = new Date(data+"T"+hora+":00-03:00");
-  return isNaN(dt.getTime()) ? null : dt;
-}
-
 function aplicarResultadosReais(){
   // Para cada jogo carregado, se houver resultado real correspondente, sobrescreve
   // golsA/golsB/status SOMENTE em memoria (nao altera os arquivos JSON originais)
@@ -596,15 +563,12 @@ function aplicarResultadosReais(){
       g.timeElapsed = r.timeElapsed;
       g.minute = r.minute;
     }
-    // Trava de seguranca: nunca aceita "ao vivo" antes do horario agendado (evita
-    // problema de fuso/atraso da API externa marcando o jogo como live cedo demais)
-    if(g.status==="live"){
-      var koG = kickoffDate(g.data, g.hora);
-      if(koG && new Date() < koG){
-        g.status = "scheduled";
-        g.golsA = null;
-        g.golsB = null;
-      }
+    // Fallback manual "ao vivo": so entra em acao se a API NAO reportou
+    // esse jogo como ao vivo/encerrado (ou seja, esta falhando/atrasada)
+    if(AO_VIVO_MANUAL[g.jogo] !== undefined && g.status!=="live" && g.status!=="finished"){
+      g.golsA = AO_VIVO_MANUAL[g.jogo][0];
+      g.golsB = AO_VIVO_MANUAL[g.jogo][1];
+      g.status = "live";
     }
     // Placar manual tem prioridade maxima
     if(PLACARES_MANUAIS[g.jogo] !== undefined){
@@ -631,14 +595,12 @@ function aplicarResultadosReais(){
         j.golsB = null;
         j.status = j.status==="live" ? "live" : "scheduled";
       }
-      // Trava de seguranca: nunca aceita "ao vivo" antes do horario agendado
-      if(j.status==="live"){
-        var koJ = kickoffDate(j.data, j.hora);
-        if(koJ && new Date() < koJ){
-          j.status = "scheduled";
-          j.golsA = null;
-          j.golsB = null;
-        }
+      // Fallback manual "ao vivo": so entra em acao se a API NAO reportou
+      // esse jogo como ao vivo/encerrado (ou seja, esta falhando/atrasada)
+      if(AO_VIVO_MANUAL[j.jogo] !== undefined && j.status!=="live" && j.status!=="finished"){
+        j.golsA = AO_VIVO_MANUAL[j.jogo][0];
+        j.golsB = AO_VIVO_MANUAL[j.jogo][1];
+        j.status = "live";
       }
       // Placar manual tem prioridade maxima sobre API
       if(PLACARES_MANUAIS[j.jogo] !== undefined){
@@ -787,8 +749,7 @@ function montarTodosJogos(){
         golsB: j.golsB,
         status: statusJogo(j),
         timeA: j.timeA, timeB: j.timeB,
-        palpites: j.palpites,
-        data: j.data, hora: j.hora
+        palpites: j.palpites
       });
     });
   });
@@ -1404,7 +1365,7 @@ function atualizarBotao(){
 }
 
 // ---------- NAV ----------
-var pgMap={inicio:"pg-inicio",ranking:"pg-ranking",jogos:"pg-jogos",dia:"pg-dia",momento:"pg-momento",apostas:"pg-apostas",tv:"pg-tv",regras:"pg-regras"};
+var pgMap={inicio:"pg-inicio",ranking:"pg-ranking",jogos:"pg-jogos",dia:"pg-dia",momento:"pg-momento",apostas:"pg-apostas",regras:"pg-regras"};
 function ir(id,btn){
   document.querySelectorAll(".tc").forEach(function(el){el.classList.remove("av");});
   document.querySelectorAll("nav.dn button, .mn button").forEach(function(b){b.classList.remove("av");});
