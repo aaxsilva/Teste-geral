@@ -391,7 +391,7 @@ var CAMPEAO_OFICIAL = "";
 // Deixe vazio quando nao houver correcao necessaria:
 //   var PLACARES_MANUAIS = {};
 // =====================================================
-var PLACARES_MANUAIS = { 81: [2, 2], 86: [1, 1], 87: [1, 1], 96: [0, 0], 99: [1, 1], 100: [1, 1] };
+var PLACARES_MANUAIS = { 81: [2, 2], 86: [1, 1], 87: [1, 1], 96: [0, 0], 99: [1, 1] };
 
 // =====================================================
 // AO VIVO MANUAL (fallback) — use SOMENTE quando a API externa
@@ -904,7 +904,7 @@ function renderRanking(){
     h+="<td class='td-trend'>"+trendHtml+"</td>";
     h+="<td class='td-foto'>"+imgTag(p.arquivo, p.nome, "pp-foto", "pp-foto-fb")+"</td>";
     h+="<td class='td-n'>"+p.nome+"</td>";
-    h+="<td class='td-pts'>"+(p.total>0?p.total:"<span style='color:var(--sv)'>&mdash;</span>")+"</td>";
+    h+="<td class='td-pts'>"+(p.total>0?p.total:"<span style='color:var(--sv)'>&mdash;</span>")+(p.campeaoPts>0?" &#x1F3C6;":"")+"</td>";
     h+=parcialCell;
     h+="<td class='td-ex'>"+p.exatos+"</td>";
     h+="<td class='td-re'>"+p.certos+"</td>";
