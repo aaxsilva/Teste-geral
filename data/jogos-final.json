@@ -495,6 +495,22 @@
           "timeB": "Inglaterra",
           "golsB": 1
         },
+	{
+          "participante": "Regis",
+          "arquivo": "regis",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 1
+        },
+	{
+          "participante": "Regis-IA",
+          "arquivo": "regis-ia",
+          "timeA": "França",
+          "golsA": 2,
+          "timeB": "Inglaterra",
+          "golsB": 3
+        },
         {
           "participante": "Zilda 1",
           "arquivo": "zilda_1",
@@ -773,6 +789,22 @@
         {
           "participante": "Sofia",
           "arquivo": "sofia",
+          "timeA": "Espanha",
+          "golsA": 1,
+          "timeB": "Argentina",
+          "golsB": 2
+        },
+ 	{
+          "participante": "Regis",
+          "arquivo": "regis",
+          "timeA": "Espanha",
+          "golsA": 1,
+          "timeB": "Argentina",
+          "golsB": 1
+        },
+ 	{
+          "participante": "Regis-IA",
+          "arquivo": "regis-ia",
           "timeA": "Espanha",
           "golsA": 1,
           "timeB": "Argentina",
